@@ -1,0 +1,79 @@
+﻿/* school page ie6 css */
+
+.rotator li .schoolRotator .leadCon .lead .schoolsTop
+{
+    width: 331px;
+}
+
+.rotator li .schoolRotator .leadCon .lead div.longSchoolsTop
+{
+    width: 674px;
+}
+
+.schoolMoreInfoPopup .longForm .formContainer .headline .line
+{
+    background-color: #fff;
+    border-top: 1px solid #A2988B;
+    border-bottom: none;
+}
+
+.schoolRotator .formContainer .headline .line
+{
+    border-bottom: none;
+}
+
+
+.schoolInfo .tabContents .group:first-child
+{
+    border-top: none;
+}
+
+.schoolInfo .tabContents .tabContent
+{
+    border-top: 1px solid #000000;
+}
+
+div.schoolInfo .tabContents .group h3 span.open
+{
+    background: url("/_imgs/englishfirst/gud/courses/com/schools/minus.jpg") no-repeat scroll -1px 0 #fff;
+}
+
+div.schoolInfo .tabContents .group h3 span.close
+{
+    background: url("/_imgs/englishfirst/gud/courses/com/schools/add.jpg") no-repeat scroll 0 1px #fff;
+}
+
+.schoolInfo .schoolInfoList .schoolTabs .active span.kidsTab
+{
+    background: url("/_imgs/englishfirst/gud/courses/com/schools/kidd_black.jpg") no-repeat scroll 9px 4px transparent;
+    
+}
+.schoolInfo .schoolInfoList .schoolTabs span.kidsTab
+{
+    background: url("/_imgs/englishfirst/gud/courses/com/schools/kidd_white.jpg") no-repeat scroll 9px 5px transparent;
+}
+
+.schoolInfo .schoolInfoList .schoolTabs .active span.adultsTab
+{
+    background: url("/_imgs/englishfirst/gud/courses/com/schools/adults_black.jpg") no-repeat scroll 8px 6px transparent;
+}
+
+div.schoolInfo .schoolInfoList .schoolTabs  span.adultsTab
+{
+    background: url("/_imgs/englishfirst/gud/courses/com/schools/adults_white.jpg") no-repeat scroll 1px 2px transparent;
+}
+
+.schoolInfo .schoolInfoList .schoolTabs .tab
+{
+    background-color: #fff;
+}
+
+div.schoolInfo .schoolInfoList .schoolTabs .active
+{
+    background-color: #000;
+}
+
+.schoolInfo .tabContents .group h3 span
+{
+    height: 25px;
+}

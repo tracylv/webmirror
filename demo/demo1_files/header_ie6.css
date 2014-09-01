@@ -1,0 +1,253 @@
+﻿/* for ie6 fix */
+.nav
+{
+  position: relative;
+  top: -5px;
+  _margin-top: 6px;
+}
+
+#nav
+{
+    height: 40px;
+    position: relative;
+}
+
+.header .headerCon
+{
+  overflow: hidden;
+}
+
+#formContainer .headline .line,
+.pinkRotator .pinkLead .line span,
+.intro .shortLine
+{
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+#formContainer .headline .line
+{
+    border-top: 1px solid #000;
+}
+
+.intro .shortLine,
+.pinkRotator .pinkLead .line span
+{
+    border-top: 1px solid #fff;
+}
+
+.intro .scroll p
+{
+    display: inline;
+}
+
+/* for age group pickup start */
+.topMenu .otherAge .ageTab
+{
+    right: -1px;
+}
+
+.header .topMenu ul li.otherAge,
+.header .topMenu ul li.cityPicker
+{
+    background: none;
+}
+
+.header .topMenu ul li.cityPicker,
+.header .topMenu ul li.contact
+{
+    position: relative;
+}
+
+.header .topMenu ul li.otherAge .ie6BgFix,
+.header .topMenu ul li.cityPicker .ie6BgFix
+{
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: url("/_imgs/englishfirst/GUD/Common/Header/dropdown_icon.png") no-repeat scroll 0 0 transparent;
+    z-index: 3;
+}
+
+.header .topMenu ul li.selected .ie6BgCover,
+.header .topMenu ul li.selected .ie6BgCover
+{
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #000;
+    z-index: 5;
+}
+
+.topMenu .otherAge .ageTab li.close
+{
+    height: 35px;
+    line-height: 35px;
+}
+
+/* for city picker start */
+.topMenu .cityPicker .cpPopup
+{
+    right: -1px;
+}
+
+.header .right .tel a
+{
+    z-index: -1;
+}
+/* for city picker end */
+
+/* leads form */
+.formContainer .headline .line
+{
+    font-size: 0;
+    line-height: 1px;
+    display: block;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+}
+
+.section h1.title,
+.section h2.title,
+.section h3.title,
+.section h4.title
+{
+  _padding-bottom: 40px;
+}
+
+.descript h3 {
+    _padding-bottom: 0;
+}
+
+.formContainer .popTipBox .boxTop
+{
+  background: url("/_imgs/englishfirst/gud/common/leadsform/phone_icon.jpg") no-repeat scroll 0 26px transparent;
+}
+
+.formContainer .popTipBoxEmail .boxTop
+{
+  background: url("/_imgs/englishfirst/gud/common/leadsform/email_icon.jpg") no-repeat scroll 0 26px transparent;
+}
+
+.errorMsg .msgMiddle .top
+{
+  background: url("/_imgs/englishfirst/gud/common/leadsform/errorMsg_top.jpg") no-repeat scroll 0 26px transparent;
+}
+
+.formContainer .popTipBox .boxBottom
+{
+  background: url("/_imgs/englishfirst/gud/common/leadsform/arrow.gif") no-repeat scroll 0 -3px transparent;
+  bottom: -20px;
+  height: 8px;
+}
+
+.body_ru .formContainer .popTipBox .boxBottom,
+.body_in .formContainer .popTipBox .boxBottom
+{
+  bottom: -16px;
+}
+
+.formContainer .inputArea .correct .validationIcon
+{
+    background: url("/_imgs/englishfirst/gud/common/leadsform/correct.jpg") no-repeat scroll 0 0 transparent;
+}
+
+/* city picker override */
+.body_cs .cityPicker .cpPopup
+{
+    right: 0px;
+}
+
+.body_cs .topMenu .otherAge .ageTab
+{
+    right: 0px;
+}
+
+/* logo */
+#header .header .headerCon .logo div.left
+{
+    overflow: visible;
+    margin-left:  -15px;
+    padding-right: 15px;
+    padding-left: 2px;
+}
+
+.body_cs .header .headerCon h1,
+.body_cs .header .headerCon .logoText1
+{
+    margin-left: -2px;
+    margin-top: 73px;
+}
+
+.body_cs .shortHeader .header .headerCon .logoText1
+{
+    margin-left: 6px;
+    margin-top: 44px;
+}
+
+.body_en .shortHeader .header .headerCon .logoText1,
+.body_ru .shortHeader .header .headerCon .logoText1,
+.body_in .shortHeader .header .headerCon .logoText1
+{
+    margin-left: 6px;
+    margin-top: 41px;
+}
+
+.body_ru .shortHeader .header .headerCon1 .logoText1,
+.body_en .shortHeader .header .headerCon1 .logoText1,
+.body_in .shortHeader .header .headerCon1 .logoText1
+{
+    margin-left: 12px;
+    margin-top: 11px;
+}
+
+.body_ru .shortHeader .header .headerCon1 .logoText2,
+.body_en .shortHeader .header .headerCon1 .logoText2,
+.body_in .shortHeader .header .headerCon1 .logoText2
+{
+    margin-left: 6px;
+}
+
+.body_en .header .headerCon h1,
+.body_in .header .headerCon h1,
+.body_ru .header .headerCon h1,
+.body_en .header .headerCon .logoText1,
+.body_in .header .headerCon .logoText1,
+.body_ru .header .headerCon .logoText1
+{
+    margin-left: -2px;
+}
+
+.body_ru .header .headerCon1 h1,
+.body_en .header .headerCon1 h1,
+.body_in .header .headerCon1 h1,
+.body_ru .header .headerCon1 .logoText1,
+.body_en .header .headerCon1 .logoText1,
+.body_in .header .headerCon1 .logoText1
+{
+    margin-left: 5px;
+}
+
+.body_ru .header .headerCon1 h2,
+.body_en .header .headerCon1 h2,
+.body_in .header .headerCon1 h2,
+.body_ru .header .headerCon1 .logoText2,
+.body_en .header .headerCon1 .logoText2,
+.body_in .header .headerCon1 .logoText2
+{
+    margin-left: -2px;
+}
+
+/* ie6 introNews H3 */
+#wrapper .introNews .headline h3.helvetica_cs
+{
+    line-height: 50px;
+}

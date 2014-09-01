@@ -1,0 +1,235 @@
+﻿.body_en h1.title, 
+.body_en h2.title, 
+.body_en h3.title,
+.body_ru h1.title, 
+.body_ru h2.title, 
+.body_ru h3.title,
+.body_in h1.title, 
+.body_in h2.title, 
+.body_in h3.title
+{ 
+    padding: 35px 0 73px;
+}
+
+
+h1.helvetica_en span,
+h2.helvetica_en span,
+h3.helvetica_en span,
+h1.helvetica_ru span,
+h2.helvetica_ru span,
+h3.helvetica_ru span,
+h1.helvetica_in span,
+h2.helvetica_in span,
+h3.helvetica_in span
+{
+    line-height: 39px;
+    padding-top: 33px;
+}
+
+.body_cs h1.title, 
+.body_cs h2.title, 
+.body_cs h3.title
+{
+    padding-top: 24px;
+    padding-bottom: 76px;
+}
+
+h1.helvetica_cs span,
+h2.helvetica_cs span,
+h3.helvetica_cs span
+{ 
+    line-height: 47px;
+    padding-top: 24px;
+}
+
+
+
+
+.body_en h1.title, 
+.body_en h2.title, 
+.body_en h3.title,
+.body_ru h1.title, 
+.body_ru h2.title, 
+.body_ru h3.title,
+.body_in h1.title, 
+.body_in h2.title, 
+.body_in h3.title
+{ 
+    padding: 35px 0 73px;
+}
+
+
+.body_en h1.title span.title,
+.body_en h2.title span.title,
+.body_en h3.title span.title,
+.body_ru h1.title span.title,
+.body_ru h2.title span.title,
+.body_ru h3.title span.title,
+.body_in h1.title span.title,
+.body_in h2.title span.title,
+.body_in h3.title span.title
+{
+    line-height: 39px;
+    padding-top: 33px;
+}
+
+.body_cs h1.title, 
+.body_cs h2.title, 
+.body_cs h3.title
+{
+    padding-top: 24px;
+    padding-bottom: 76px;
+}
+
+.body_cs h1.title span.title,
+.body_cs h2.title span.title,
+.body_cs h3.title span.title
+{ 
+    line-height: 47px;
+    padding-top: 24px;
+}
+
+
+
+
+div h3.subHead
+{
+    padding: 35px 0 73px;
+    margin-bottom: 3px;
+}
+
+.body_cs h3.subHead
+{
+    padding-top: 24px;
+}
+
+
+h3.subHead .helvetica_en,
+h3.subHead .helvetica_ru,
+h3.subHead .helvetica_in
+{
+    line-height: 39px;
+    padding-top: 33px;
+}
+
+h3.subHead .helvetica_cs
+{ 
+    line-height: 47px;
+    padding-top: 24px;
+}
+
+
+
+div.headlineBlack .h3
+{
+    padding-top: 35px;
+}
+
+.body_cs div.headlineBlack .h3
+{
+    padding-top: 24px;
+}
+
+div.headlineBlack .h3 span
+{
+    padding-top: 33px;
+}
+
+div.headlineBlack .h3 .helvetica_cs
+{
+    padding-top: 24px;
+}
+
+div.row .headlineBlack
+{
+    padding-bottom: 73px;
+}
+
+.body_cs div.row .headlineBlack
+{
+    padding-bottom: 76px;
+}
+
+.body_en .globalOffices div h3.subHead,
+.body_ru .globalOffices div h3.subHead,
+.body_in .globalOffices div h3.subHead
+{
+    padding-bottom: 34px;
+}
+
+/* other EF companies */
+#content .largeBg .contents .innerBox h1.title {
+    padding: 0;
+}
+#content .largeBg .contents .innerBox .line {
+    *margin: 11px auto 15px;
+}
+
+#content .gallery .txtWrap .mainBox h2.title {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* logo adjust start */
+.body_cs .header .headerCon h1,
+.body_cs .header .headerCon .logoText1
+{
+    margin-top: 72px;
+    margin-left: -15px;
+}
+
+/* logo adjust end */
+
+/* Seo Page */
+#content .rightBox .widget h3.title
+{
+    padding: 0;
+}
+
+#content .rightBox .widget dd.title {
+    padding-top: 0;
+}
+
+/* for ru show tickbox start */
+.tickBoxShow .formBottom .formPrivacy
+{
+    margin-top: 8px;
+}
+
+.tickBoxShow .formContainer .formBottom
+{
+    height: 72px;
+}
+
+.tickBoxShow .formContainer .headline p
+{
+    *padding-bottom: 16px;
+}
+/* for ru show tickbox end */
+
+/* for ru/id title in tabs start */
+.body_ru .schoolInfo .schoolInfoList .schoolTabs
+{
+    width: 600px;
+}
+.body_ru .schoolInfo .schoolInfoList .schoolTabs .tab
+{
+    width: 300px;
+}
+.body_ru .schoolInfo .schoolInfoList .schoolTabs2
+{
+    width: 800px;
+}
+.body_in .schoolInfo .schoolInfoList .schoolTabs2
+{
+    width: 700px;
+}
+.body_ru .schoolInfo .schoolInfoList .schoolTabs .tab2
+{
+    width: 400px;
+}
+.body_in .schoolInfo .schoolInfoList .schoolTabs .tab2
+{
+    width: 350px;
+}
+/* for ru/id title in tabs start */

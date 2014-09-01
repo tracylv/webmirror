@@ -1,0 +1,1652 @@
+/* header.css, layout for the header */
+
+/* head big background image css start */
+
+.bigHeadBg,
+.header,
+.nav
+{
+  min-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header,
+.nav
+{
+  position: relative;
+}
+
+.header
+{
+  z-index: 100;
+}
+
+.headerRow
+{
+    height: 150px;
+}
+
+.nav
+{
+  z-index: 99;
+}
+
+.bigHeadBg
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 650px;
+
+}
+
+.bigHeadBg_cn
+{
+  background: url("/_imgs/englishfirst/gud/common/header/cn/our_student_ss_01.jpg") no-repeat scroll center top transparent;
+}
+
+.bigHeadBg_ru
+{
+  background: url("/_imgs/englishfirst/gud/common/header/ru/our_student_ss_01.jpg") no-repeat scroll center top transparent;
+}
+
+.bigHeadBg_id
+{
+  background: url("/_imgs/englishfirst/gud/common/header/id/our_student_ss_01.jpg") no-repeat scroll center top transparent;
+}
+
+.rotator li,
+.rotator li .slide,
+.rotator li .slide .leadCon,
+.rotator li .slide .pinkRotator
+{
+  height: 650px;
+}
+
+.rotator li .slide
+{
+  overflow: visible;
+}
+
+.rotator li .slide .leadCon,
+.rotator li .slide .pinkRotator
+{
+  position: relative;
+}
+
+.rotator li .slide .leadCon .lead,
+.rotator li .slide .pinkRotator .pinkLead
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.rotator li .slide .pinkRotator .pinkLead
+{
+  height: 460px;
+}
+
+.pinkRotator .pinkLead .title h3,
+.pinkRotator .pinkLead .title .pinkTitleText,
+.pinkRotator .pinkLead .line,
+.pinkRotator .pinkLead .description p,
+.pinkRotator .pinkLead .pinkBtn
+{
+  color: #fff;
+  text-align: center;
+}
+
+.pinkRotator .pinkLead .title h3,
+.pinkRotator .pinkLead .title .pinkTitleText
+{
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 120px;
+  margin-top: 85px;
+  text-transform: uppercase;
+}
+
+.pinkRotator .pinkLead .line span
+{
+  width: 400px;
+  height: 1px;
+  background-color: #fff;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.pinkRotator .pinkLead .description
+{
+  margin-top: 22px;
+}
+.pinkRotator .pinkLead .description p
+{
+  font-family: Georgia, Arial, serif;
+  font-size:18px;
+  font-style: italic;
+  line-height: 22px;
+}
+
+.body_cs .pinkRotator .pinkLead .description p
+{
+    font-family: "Microsoft Yahei", Î¢ÈíÑÅºÚ, Arial, STHeiti, SimHei;
+}
+
+.pinkRotator .pinkLead .pinkBtn
+{
+  margin-top: 50px;
+}
+
+.pinkRotator .pinkLead .pinkBtn a
+{
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #ec008c;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 30px;
+  height: 40px;
+  line-height: 41px;
+  text-decoration: none;
+}
+
+.pinkRotator .pinkLead .pinkBtn a:hover
+{
+    background-color: #f0f0f0;
+}
+
+/* head big background image css end */
+
+/* header css start */
+.header
+{
+  background: url("headerbg.png") repeat-x scroll 0 0 transparent;
+  height: 12.5em;
+}
+
+.header .headerCon
+{
+  margin: 0 auto;
+  height: 8.333em;
+  padding: 2.083em 0;
+  min-width: 960px;
+  width: 80em;
+}
+
+.header .headerCon .logo
+{
+  text-decoration: none;
+}
+
+.header .logoText1,
+.header .logoText2
+{
+  display: block;
+}
+
+.header .headerCon h1,
+.header .headerCon .logoText1
+{
+  font-size: 200%;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.25em;
+  margin: 3.125em 0 0 -0.417em;
+}
+.header .headerCon1 h1,
+.header .headerCon1 .logoText1
+{
+  margin: 2em 0 0 -0.417em;
+}
+.header .headerCon h2,
+.header .headerCon .logoText2
+{
+  font-size: 200%;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.25em;
+  margin: 0 0 0 -0.417em;
+}
+
+.body_cs .header .headerCon h1,
+.body_cs .header .headerCon .logoText1
+{
+    margin-top: 71px;
+}
+
+
+.header .topMenu ul li
+{
+  float: left;
+  padding: 1.667em 0;
+}
+
+.header .topMenu ul li
+{
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font-weight: bold;
+  padding: 0 1.917em 0 1.333em;
+  margin-left: 2px;
+}
+
+.header .topMenu ul li.first
+{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.header .topMenu ul li.last
+{
+  padding-right: 0;
+}
+
+.header .topMenu ul li.otherAge,
+.header .topMenu ul li.cityPicker
+{
+  background: url("dropdown_icon.png") no-repeat scroll 100% 10px transparent; 
+}
+
+.header .right .tel
+{
+  font-family:  Arial;
+  font-size: 22px;
+  font-style: italic;
+  float: right;
+  line-height: 1.364em;
+  margin-top: 0;
+}
+
+.header .right .tel a
+{
+  background: url("tel_icon.png") no-repeat scroll 0 -1px transparent;
+  padding-left: 1.773em;
+  text-decoration: none;
+  outline: none;
+}
+
+.headerCon .right
+{
+  position: relative;
+}
+
+.header .right .tel
+{
+  position: absolute;
+  right: 0;
+  top: 77px;
+  width: 480px;
+  text-align:right;
+}
+
+.header .right .tel .agespan
+{
+    font-size: 12px;
+    margin-right:5px;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
+
+
+/* brand text on the left of form start */
+.intro
+{
+    display: block;
+    width: 400px;
+    margin-top: 106px;
+    color: #fff;
+}
+
+.intro .headline h3,
+.intro .headline .headlineText
+{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.intro .shortLine
+{
+    background-color: #fff;
+    width: 35px;
+    height: 1px;
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
+
+.intro .text p
+{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.intro .scroll
+{
+    float:left
+}
+
+.intro .scroll p
+{
+    background: url("circle_drop_icon.png") no-repeat scroll 100% -1px transparent; ;
+    font-family: Georgia, Arial;
+    font-style: italic;
+    font-size: 16px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 49px;
+}
+
+.body_cs .intro .scroll p
+{
+    font-family: "Microsoft Yahei", Î¢ÈíÑÅºÚ, Arial, STHeiti, SimHei;
+}
+
+.franchise 
+{
+	top: 335px;
+	text-align: center;
+    position: absolute;
+}
+
+.franchise .intro
+{
+	width: 100%;
+    margin-top: 0;
+}
+
+.franchise .left 
+{
+	float: none;
+}
+
+.franchise .headline h3,
+.franchise .headline .headlineText
+{
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.franchise .headline .headlineText
+{
+    padding: 33px 0 75px;
+}
+
+/* success */
+.success 
+{
+	top: 335px;
+	text-align: center;
+}
+
+.success .intro
+{
+	width: 100%;
+    margin-top: 0;
+}
+
+.success .left 
+{
+	float: none;
+}
+
+.success .headline h3,
+.success .headline .headlineText
+{
+    font-size: 60px;
+    line-height: 1;
+}
+
+.success .scroll 
+{
+	float: none;
+	margin: 35px auto 0;
+	padding: 0 320px;
+}
+
+.formCon
+{
+    width: 330px;
+    height: 445px;
+    background-color: #fff;
+}
+/* news intro area */
+
+.rotator1 {}
+
+.rotator li .leadNews 
+{
+	top: 247px;
+}
+.rotator .leadNews .row {
+    min-width: 960px;
+}
+.introNews 
+{
+	width: 960px;
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+}
+
+.introNews .headline h3,
+.introNews .headline .headlineText
+{
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.introNews .formButton a
+{
+	background-color: #eb008a;
+    color: #FFF;
+    display: block;
+    font-size: 12px;
+	text-transform: uppercase;
+    font-weight: bold;
+    height: 28px;
+    margin: 0 auto;
+    padding-top: 12px;
+    text-align: center;
+    width: 243px;
+}
+
+.introNews .scroll 
+{
+	float: none;	
+	padding: 39px 215px 25px;
+}
+
+.subNavgation 
+{
+    width: 676px;
+	height: 130px;
+	overflow: hidden;
+	text-align: center;
+	position: absolute;
+	top: 290px;
+    left: 145px;
+	z-index: 90;
+}
+
+.subNavgation ul li 
+{
+	float: left;	
+	height: auto;
+	margin-right: 73px;
+	display: inline;
+}
+
+.subNavgation ul li a 
+{
+	display: block;
+	width: 74px; 
+	font-size: 12px;
+	padding-top: 90px;
+}
+
+.subNavgation ul li a 
+{
+	text-decoration: none;
+}
+
+    .subNavgation ul li.events {
+        margin-right: 75px;
+    }
+.subNavgation ul li.events a
+{
+	background-position: -5px -158px;
+}
+
+.subNavgation ul li.events a:hover 
+{
+	background-position: -4px -12px;
+}
+
+.subNavgation ul li.events a.focus {
+	background-position: -4px -12px;
+}
+
+    .subNavgation ul li.tvcoverage {
+        margin-right:75px;
+    }
+.subNavgation ul li.tvcoverage a
+{
+    width:75px;
+	background-position: -109px -158px;
+}
+
+.subNavgation ul li.tvcoverage a:hover 
+{
+	background-position: -110px -12px;
+}
+
+.subNavgation ul li.tvcoverage a.focus {
+	background-position: -110px -12px;
+}
+
+.subNavgation ul li.print a
+{
+	background-position: -209px -158px;
+	width: 74px; 
+}
+
+.subNavgation ul li.print a:hover 
+{
+	background-position: -209px -13px;
+}
+
+.subNavgation ul li.print a.focus {
+	background-position: -209px -13px;
+}
+
+.subNavgation ul li.onlinenews
+{
+    margin-right: 61px;
+}
+
+.subNavgation ul li.onlinenews a
+{
+	background-position: -297px -158px; 
+}
+
+.subNavgation ul li.onlinenews a:hover 
+{
+	background-position: -297px -13px;
+}
+
+.subNavgation ul li.onlinenews a.focus {
+	background-position: -297px -13px;
+}
+
+.subNavgation ul li.summary 
+{
+	margin: 0;
+}
+
+.subNavgation ul li.summary a
+{
+	background-position: -382px -158px;
+	width: 93px;
+}
+
+.subNavgation ul li.summary a:hover 
+{
+	background-position: -382px -13px;
+}
+
+.subNavgation ul li.summary a.focus {
+	background-position: -382px -13px;
+}
+
+.headerBottom 
+{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;	
+}
+/* news page pink area */
+.pinkRotator .rotator2 .title h3,
+.pinkRotator .rotator2 .title .pinkTitleText
+{
+	font-size: 80px;
+	line-height: 120px;
+	margin-top: 23px;
+	text-transform: uppercase;
+	height: auto;
+}
+
+.pinkRotator .rotator2 .line
+{
+    margin-top: -10px;
+}
+
+.pinkRotator .rotator2 .line span 
+{
+	width: 660px;
+	margin: 0 0 24px 0;
+}
+
+.pinkRotator .rotator2 .description 
+{
+	margin: 0;
+}
+
+.pinkRotator .rotator2 .description p 
+{
+	font-size: 16px;
+	line-height: 1;
+}
+
+.pinkRotator .rotator2 .formButton
+{
+	margin-top: 30px;	
+}
+
+.pinkRotator .rotator2 .formButton a 
+{
+	background-color: #FFF;
+    color: #eb008a;
+    display: block;
+    font-size: 12px;
+	text-transform: uppercase;
+    font-weight: bold;
+    height: 28px;
+    margin: 0 auto;
+    padding-top: 12px;
+    text-align: center;
+    width: 243px;
+}
+
+  /* brand text on the left of form end */
+/* header css end */
+
+/* nav css start */
+.nav
+{
+  background: url("navbg.png") repeat-x scroll 0 0 transparent;
+  height: 40px;
+  margin-top: 1px;
+}
+
+.nav .navCon
+{
+  margin: 0 auto;
+  min-width: 960px;
+  width: 80em;
+}
+
+.nav .navCon ul li
+{
+  float:left;
+  margin-right: 0;
+}
+
+.nav .navCon ul li a
+{
+  font-weight: bold;
+  display: block;
+  line-height: 40px;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+.body_ru .nav .navCon ul li a
+{
+    padding: 0 19px;
+}
+
+.body_cs .nav .navCon ul li a
+{
+    font-size: 13px;
+}
+
+.nav .navCon ul li a:hover
+{
+  text-decoration: none;
+}
+
+.nav .navCon ul li.focus a
+{
+  background-color: #000;
+  text-decoration: none;
+}
+/* headerKidscourse.css */
+.navPCRelated .navCon ul li 
+{
+    position: relative;
+    padding-right: 11px;
+}
+
+.navPCRelated .navCon ul li a 
+{
+    padding: 0 14px;
+}
+
+.navPCRelated .navCon ul li.focus span 
+{
+    display: block;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 14px;
+    color: #FFF;
+}
+
+.navPCRelated .navCon ul li.focus a,
+.navPCRelated .navCon ul li.focus span
+{
+    background-color: #ec008b;
+}
+
+.navPCRelated .navCon ul li.focus span.arrow
+{
+    width: 11px;
+    height: 17px;
+    background:url("course_arrow.png");
+    position: absolute;
+    right: 0;
+    top: 13px;
+    background-color: transparent;
+    padding: 0;
+}
+/* nav css end */
+
+.placeHolder
+{
+  height: 459px;
+}
+
+/* other age group start */
+
+.topMenu .list
+{
+    height: 39px;
+    position: relative;
+    top: -12px;
+}
+
+.header .topMenu .list li.otherAge,
+.header .topMenu .list li.cityPicker,
+.header .topMenu .list li.contact
+{
+    height: 39px;
+    line-height: 39px;
+    padding: 0 24px;
+    margin: 0;
+    font-size: 13px;
+}
+
+.header .topMenu .list li.contact
+{
+    padding-right: 0;
+}
+
+.header .topMenu .list li.selected
+{
+    background: none;
+    background-color: #000;
+}
+
+.topMenu .otherAge
+{
+  position: relative;
+  z-index: 12;
+}
+
+.topMenu .otherAge .ageTab
+{
+  background-color: #000;
+  color: #fff;
+  cursor: default;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 39px;
+  width: 282px;
+  padding-bottom: 43px;
+  display: none;
+}
+
+.topMenu .otherAge .ageTab li
+{
+  height: 42px;
+  line-height: 42px;
+  display: block;
+  text-align: left;
+  font-weight: normal;
+  float: none;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.topMenu .otherAge .ageTab li.ageGroup a
+{
+    cursor: pointer;
+    display: block;
+    padding: 0 0 0 60px;
+}
+
+.topMenu .otherAge .ageTab li a
+{
+    text-decoration: none;
+}
+
+.topMenu .otherAge .ageTab li.focus
+{
+  background-color: #a2988b;
+}
+
+.topMenu .otherAge .ageTab li.focus a
+{
+  color: #000;
+}
+
+.topMenu .otherAge .ageTab li.close
+{
+  height: 45px;
+}
+
+.topMenu .otherAge .ageTab li.close span
+{
+    background: url("dd_close.jpg") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    display: block;
+    float:right;
+    margin-top: 10px;
+    margin-right: 0;
+    padding-right: 15px;
+}
+/* other age group end */
+/* Sprite */
+.subNavgation ul li a
+{
+	background-image: url("news_header_sprite.png");
+    background-repeat: no-repeat;
+}
+
+/* phone num popup start */
+#hiddenCity
+{
+    display: none;
+}
+
+/* ID don't have phone number popup */
+.popupsPhoneNum_id
+{
+    display: none;
+}
+
+.popupsPhoneNum .popupContent
+{
+   width: 692px;
+   margin: 0 auto;
+}
+
+.popupsPhoneNum .phonePopTitle,
+.popupsPhoneNum .phonePopSubTitle
+{
+    font-size: 18px;
+    color: #a2988b;
+    line-height: 20px;
+}
+
+.popupsPhoneNum .phonePopSubTitle
+{
+    margin-left: 16px;
+}
+
+.popupsPhoneNum .ownCityArea
+{
+    border-top: 1px solid #a2988b;
+    border-bottom: 1px solid #a2988b;
+    padding:21px 0;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.popupsPhoneNum .ownCityArea .phonePopTel,
+.popupsPhoneNum .ownCityArea .phonePopCities
+{
+    text-align: center;
+}
+
+.popupsPhoneNum .ownCityArea .phonePopTel .middle,
+.popupsPhoneNum .ownCityArea .phonePopCities .middle
+{
+    display: inline;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+}
+
+.popupsPhoneNum .ownCityArea .phonePopTel .tel
+{
+    font-size: 18px;
+    font-style: italic;
+    
+}
+
+.popupsPhoneNum .ownCityArea .phonePopTel .label
+{
+    margin-left: 26px;
+}
+
+.popupsPhoneNum .ownCityArea .phonePopTel .label:first-child
+{
+    margin-left: 0;
+}
+
+.popupsPhoneNum .ownCityArea .phonePopTel
+{
+    margin-bottom: 14px;
+}
+
+.popupsPhoneNum .ownCityArea .phonePopCities a
+{
+    color: #107db3;
+    text-decoration: underline;
+    margin-left:16px;
+}
+
+.popupsPhoneNum .ownCityArea .phonePopCities a:first-child
+{
+    margin-left: 0;
+}
+
+.popupsPhoneNum .customScrollbar .scrollbar,
+.popupsPhoneNum .customScrollbar .viewport
+{
+    height: 258px;
+}
+
+.popupsPhoneNum .customScrollbar .viewport
+{
+    width: 680px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.popupsPhoneNum .customScrollbar .track
+{
+    height: 0;
+}
+
+.popupsPhoneNum .customScrollbar .viewport .phonePopColumns a
+{
+    color: #107db3;
+    text-decoration: underline;
+}
+
+.popupsPhoneNum .customScrollbar .viewport .phonePopColumns .phonePopLeft,
+.popupsPhoneNum .customScrollbar .viewport .phonePopColumns .phonePopMiddle,
+.popupsPhoneNum .customScrollbar .viewport .phonePopColumns .phonePopRight
+{
+    float:left;
+    width: 226px;
+    color: #000;
+}
+
+.popupsPhoneNum .customScrollbar .viewport .phonePopColumns .phonePopRow
+{
+    padding-bottom: 16px;
+}
+
+.popupsPhoneNum .customScrollbar .viewport .phonePopColumns .phonePopRow .phonePopSchool
+{
+    width: 68px;
+    display: inline-block;
+}
+
+.popupsPhoneNum .mainCityArea
+{
+    margin-top: 18px;
+    border-top: 1px solid #a2988b;
+}
+
+.popupsPhoneNum .mainCityArea .phonePopLeft,
+.popupsPhoneNum .mainCityArea .phonePopRight
+{
+    width: 316px;
+    float:left;
+    margin-top: 17px;
+    margin-bottom: 24px;
+    color: #000;
+}
+
+.popupsPhoneNum .mainCityArea .phonePopRight
+{
+    margin-left: 60px;
+}
+
+.popupsPhoneNum .mainCityArea .label,
+.popupsPhoneNum .mainCityArea .tel
+{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.popupsPhoneNum .mainCityArea .tel
+{
+    font-style: italic;
+}
+
+.popupsPhoneNum .popupContentSchools .phonePopColumns .phonePopLeft,
+.popupsPhoneNum .popupContentSchools .phonePopColumns .phonePopRight
+{
+    width: 316px;
+    float:left;
+}
+
+.popupsPhoneNum .popupContentSchools .phonePopColumns .phonePopRight
+{
+    margin-left: 60px;
+}
+
+.popupsPhoneNum .popupContentSchools .customScrollbar .track
+{
+    padding: 0;
+}
+
+.popupsPhoneNum .popupContentSchools .customScrollbar .viewport,
+.popupsPhoneNum .popupContentSchools .customScrollbar .viewport .overview
+{
+    width: 278px;
+}
+
+.popupsPhoneNum .popupContentSchools .customScrollbar .viewport
+{
+    width: 308px;
+    _width:306px;
+}
+
+.popupsPhoneNum .popupContentSchools .customScrollbar .viewport .overview
+{
+    padding-right: 37px;
+    _padding-right: 0;
+}
+
+.popupsPhoneNum .popupContentSchools .customScrollbar .viewport .phonePopRow
+{
+    padding-bottom: 14px;
+}
+
+.popupsPhoneNum .popupContentSchools .customScrollbar .viewport .phonePopRow a
+{
+    font-size: 14px;
+    line-height: 18px;
+    color: #107db3;
+    text-decoration: underline;
+}
+
+.popupsPhoneNum .popupContentSchools .customScrollbar .scrollbar,
+.popupsPhoneNum .popupContentSchools .customScrollbar .viewport
+{
+    height: 310px;
+}
+
+.popupsPhoneNum .popupContentSchools_ru .mainCityArea .phonePopLeft,
+.popupsPhoneNum .popupContentSchools_ru .phonePopColumns .phonePopLeft
+{
+    width: 355px;
+}
+
+.popupsPhoneNum .popupContentSchools_ru .mainCityArea .phonePopRight,
+.popupsPhoneNum .popupContentSchools_ru .phonePopColumns .phonePopRight
+{
+    width: 275px;
+    margin-left: 60px;
+}
+
+.popupsPhoneNum .popupContentSchools_ru .phonePopColumns .phonePopRight .phonePopRow
+{
+    padding-bottom: 14px;
+}
+
+.popupsPhoneNum .popupContentSchools_ru .phonePopColumns .phonePopRight .phonePopRow a
+{
+    color: #107db3;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+}
+
+.popupsPhoneNum .popupContentSchools .phonePopColumns .phonePopNum,
+.popupsPhoneNum .popupContentSchools_ru .phonePopColumns .phonePopNum
+{
+    float: right;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+
+.popupsPhoneNum .popupContentSchools_ru .phonePopLeft .customScrollbar .viewport,
+.popupsPhoneNum .popupContentSchools_ru .phonePopLeft .customScrollbar .viewport .overview
+{
+    width: 316px;
+}
+
+.popupsPhoneNum .popupContentSchools_ru .phonePopLeft .customScrollbar .viewport
+{
+    width:347px;
+    _width:315px;
+}
+
+.popupsPhoneNum .popupContentSchools_ru .phonePopRight .customScrollbar .viewport,
+.popupsPhoneNum .popupContentSchools_ru .phonePopRight .customScrollbar .viewport .overview
+{
+    width: 275px;
+    _padding-right: 0;
+}
+
+.popupsPhoneNum .popupContentSchools_ru .phonePopTitle,
+.popupsPhoneNum .popupContentSchools_ru .mainCityArea .label
+{
+    font-family: 'Helvetica Neue LT Pro', Arial;
+    font-weight: bold;
+}
+
+/* phone num popup end */
+
+h3.subHead
+{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 74px;
+    line-height: 40px;
+}
+
+.subHead .title
+{
+  display: inline-block;
+  padding: 0 20px;
+  height: 68px;
+  line-height: 106px;
+}
+
+div .subHead .helvetica_cs
+{
+    line-height: 95px;
+    padding-bottom: 7px;
+}
+
+.subHead .black
+{
+  background-image: url("/_imgs/englishfirst/gud/courses/ss/cn/pd/ss_sprite.png");
+  background-repeat: no-repeat;
+  background-position: -20px -7px;
+  color: #000;
+
+}
+
+.subHead .white
+{
+  background-image: url("/_imgs/englishfirst/gud/courses/ss/cn/pd/ss_sprite.png");
+  background-repeat: no-repeat;
+  background-position: 120px -118px;
+  color: #fff;
+}
+
+/* teens school banner css start */
+
+.teensSchoolBanner
+{
+    position: absolute;
+    top: 670px;
+    left: 0;
+    width: 110px;
+    height: 158px;
+    z-index: 1000;
+}
+
+.teensSchoolBanner a,
+.teensSchoolBanner a img
+{
+    display: block;
+    outline: none;
+}
+
+.teensSchoolBanner .close
+{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: url("/_imgs/englishfirst/GUD/Common/schoolbanner/closebg.gif") no-repeat scroll 0 0 transparent;
+}
+/* teens school banner css end */
+
+/* logo adjust start */
+.body_cs .header .headerCon h1,
+.body_cs .header .headerCon .logoText1
+{
+    margin-left: -14px;
+}
+
+.body_en .header .headerCon h1,
+.body_ru .header .headerCon h1,
+.body_in .header .headerCon h1,
+.body_en .header .headerCon .logoText1,
+.body_ru .header .headerCon .logoText1,
+.body_in .header .headerCon .logoText1
+{
+    margin-left: -14px;
+    margin-top: 77px;
+}
+
+.body_ru .header .headerCon1 h1,
+.body_en .header .headerCon1 h1,
+.body_in .header .headerCon1 h1,
+.body_ru .header .headerCon1 .logoText1,
+.body_en .header .headerCon1 .logoText1,
+.body_in .header .headerCon1 .logoText1
+{
+    margin-top: 47px;
+    margin-left: -7px;
+}
+
+.body_ru .header .headerCon1 h2,
+.body_en .header .headerCon1 h2,
+.body_in .header .headerCon1 h2,
+.body_ru .header .headerCon1 .logoText2,
+.body_en .header .headerCon1 .logoText2,
+.body_in .header .headerCon1 .logoText2
+{
+    margin-left: -14px;
+}
+
+
+/* logo adjust end */
+
+/* rotator icon */
+.TRPagination
+{
+    position: absolute;
+    bottom: 23px;
+    left: 50%;
+    margin-left: -14px;
+    width: 31px;
+}
+
+.TRPagination li,
+.TRPagination li span
+{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    float: left;
+}
+
+.TRPagination li.first
+{
+    padding-right: 6px;
+}
+
+.TRPagination li span
+{
+    cursor: pointer;
+    background: url("toprotator_wicon.png") no-repeat scroll 0 0 transparent;
+    _background: url("toprotator_wicon.gif") no-repeat scroll 0 0 transparent;
+}
+
+.TRPagination li span.selected
+{
+    background: url("toprotator_bicon.png") no-repeat scroll 0 0 transparent;
+    _background: url("toprotator_bicon.gif") no-repeat scroll 0 0 transparent;
+}
+
+#header,
+#nav
+{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+/* for ru moscow two row phone num start */
+
+div .header .right .moscowTwoRowsTel
+{
+    width: 300px;
+    top: 53px;
+    *top: -23px;
+    line-height: 26px;
+}
+
+div .header .right .moscowTwoRowsTel .phonespan
+{
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Arial;
+}
+
+div .header .right .moscowTwoRowsTel a
+{
+    float: right;
+    background: url("small_tel_icon.png") no-repeat scroll 11px 4px transparent;
+    *background: url("small_tel_icon.png") no-repeat scroll 11px 5px transparent;
+}
+/* for ru moscow two row phone num end */
+
+/* navigation underline too close fix */
+.nav .navCon ul li a span
+{
+    border-bottom: none;
+}
+
+.nav .navCon ul li a:hover span
+{
+    border-bottom: 1px solid #fff;
+}
+
+.nav .navCon ul li.focus a span,
+.nav .navCon ul li.focus a:hover span
+{
+    border-bottom: none;
+}
+
+.nav .navCon ul li a:hover
+{
+    border: none;
+}
+
+/* update scrolldown button in TR */
+.intro .scroll .anchor
+{
+    position: relative;
+    background: none;
+}
+
+.intro .scroll .anchor .scrolldownIcon
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    background: url("circle_drop_icon.png") no-repeat scroll 0 -1px transparent;
+}
+
+
+/* short header css */
+.shortHeader,
+.shortHeader .header
+{
+    height: 120px;
+}
+
+.shortHeader .header .headerCon
+{
+    height: 71px;
+    padding-bottom: 0;
+}
+
+.shortHeader .header .headerCon .logoCon
+{
+    height: 71px;
+    padding-right: 10px;
+}
+
+.body_cs .shortHeader .header .headerCon .logoText1
+{
+    margin-left: -8px;
+    margin-top: 42px;
+}
+
+.body_en .shortHeader .header .headerCon .logoText1,
+.body_ru .shortHeader .header .headerCon .logoText1,
+.body_in .shortHeader .header .headerCon .logoText1
+{
+    margin-left: -8px;
+    margin-top: 41px;
+}
+
+.body_ru .shortHeader .header .headerCon1 .logoText1,
+.body_en .shortHeader .header .headerCon1 .logoText1,
+.body_in .shortHeader .header .headerCon1 .logoText1
+{
+    margin-left: -1px;
+    margin-top: 11px;
+}
+
+.body_ru .shortHeader .header .headerCon1 .logoText2,
+.body_en .shortHeader .header .headerCon1 .logoText2,
+.body_in .shortHeader .header .headerCon1 .logoText2
+{
+    margin-left: -7px;
+}
+
+.shortHeader .header .right .tel
+{
+    top: 49px;
+}
+
+.body_en .shortHeader .header .right .tel,
+.body_ru .shortHeader .header .right .tel,
+.body_in .shortHeader .header .right .tel
+{
+    top: 41px;
+}
+
+.shortHeaderPlaceHolder
+{
+    height: 327px;
+}
+
+.shortRotator li,
+.shortRotator li .slide,
+.shortRotator li .slide .leadCon
+{
+    height: 488px;
+}
+
+.shortLeadsFormCon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+}
+
+.shortLeadsForm
+{
+    height: 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+.shortLeadsForm .formCon
+{
+    position: absolute;
+    right: 0;
+    top: 172px;
+    z-index: 100;
+}
+
+.shortRotator li .slide .leadCon .lead
+{
+    bottom: auto;
+    top: 180px;
+}
+
+.shortRotator .intro
+{
+    margin-top: 0;
+    padding-top: 23px;
+    width: 620px;
+}
+
+.shortRotator .rotator2 .intro
+{
+    width: 500px;
+    padding-top: 73px;
+}
+
+.shortRotator .rotator2 .ourteacherBigHeadBg .intro
+{
+    padding-top: 43px;
+}
+
+.shortRotator .intro:hover
+{
+    cursor: pointer;
+}
+
+.body_cs .shortRotator .intro .shortLine
+{
+    margin-top: 23px;
+    margin-bottom: 19px;
+}
+
+.body_en .shortRotator .intro .shortLine,
+.body_ru .shortRotator .intro .shortLine,
+.body_in .shortRotator .intro .shortLine
+{
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
+
+.shortRotator .intro .text .subTitle
+{
+    margin-bottom: 10px;
+    font-style: normal;
+}
+
+.shortRotator .intro .findOutMore p
+{
+    display: inline-block;
+    height: 38px;
+    text-transform: uppercase;
+    line-height: 39px;
+    padding: 0 45px 0 30px;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.shortRotator .intro .findOutMore p:hover
+{
+    text-decoration: underline;
+}
+
+.shortRotator .intro .findOutMore p span
+{
+    background: url("arrow.png") no-repeat scroll 0 0 transparent;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 26px;
+    top: 14px;
+}
+
+
+.shortRotator .intro .text .description
+{
+    margin-bottom: 0;
+    margin-bottom: 4px;
+    line-height: 18px;
+}
+
+.shortRotator .rotator2 .intro .text .description
+{
+    margin-bottom: 6px;
+}
+
+.shortRotator .intro .text .descriptionlast
+{
+    margin-bottom: 20px;
+}
+
+.shortRotator .rotator2 .intro:hover
+{
+    cursor: default;
+}
+
+.shortRotator .slideOpenNewLink,
+.shortRotator .slideOpenNewLink:hover
+{
+    text-decoration: none;
+}
+
+.shortHeaderBg
+{
+    height: 488px;
+}
+
+.shortHeaderBg .WhiteTRPagination
+{
+    bottom: 26px;
+}
+
+.shortHeaderBg .WhiteTRPagination li span
+{
+    background: url("bullets.png") no-repeat scroll 0 0 transparent;
+    _background: url("bullets.gif") no-repeat scroll 0 0 transparent;
+}
+
+.shortHeaderBg .WhiteTRPagination li span.selected
+{
+    background: url("bullets.png") no-repeat scroll -21px 0 transparent;
+    _background: url("bullets.gif") no-repeat scroll -21px 0 transparent;
+}
+
+.pinkShortRotator .introNews .headline
+{
+    padding-bottom: 26px;
+}
+
+.withshortHeader .subNavgation
+{
+    height: 105px;
+    top: 174px;
+}
+
+.pinkShortRotator .shortLeadsForm .formCon
+{
+    top: -8px;
+}
+
+.pinkShortRotator_cn .shortLeadsForm .formCon,
+.pinkShortRotator_cn .shortLeadsForm .formContainer
+{
+    height: 316px;
+}
+
+.rotator_cn .pinkBg
+{
+    background: url("tiantianbigheader.jpg") no-repeat scroll center top transparent;
+}
+
+.rotator_cn .pinkRotator .pinkLead .description
+{
+    margin-top: 11px;
+}
+
+.rotator_cn .pinkRotator .pinkLead .line span
+{
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.rotator_cn .pinkRotator .pinkLead .pinkBtn
+{
+    margin-top: 47px;
+}
+
+.rotator_cn .pinkRotator .pinkLead .title .pinkTitleText
+{
+    margin-top: 104px;
+}
+
+#content .signUp a:hover
+{
+    background-color: #f0f0f0;
+}
+
+div #content .signUp h4
+{
+    font-family: 'Roboto Condensed', 'Helvetica Neue', Arial;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.body_cs #content .signUp h4
+{
+    font-family: "Microsoft Yahei", Î¢ÈíÑÅºÚ, Arial, STHeiti, SimHei;
+}

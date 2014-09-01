@@ -1,0 +1,193 @@
+/* E1 Footer */
+#e1Footer {
+    background-color: #000000;
+    position: relative;
+    color: #FFFFFF;
+    min-width: 1000px;
+}
+
+    #e1Footer .section {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+        #e1Footer .section .breadCrumb {
+            padding: 47px 0 22px;
+            color: #a19789;
+        }
+
+            #e1Footer .section .breadCrumb span {
+                padding-right: 8px;
+            }
+
+            #e1Footer .section .breadCrumb a {
+                font-size: 12px;
+                color: #a19789;
+                padding-right: 8px;
+            }
+
+    #e1Footer .footerLinkList {
+        width: 100%;
+        padding: 47px 0 46px;
+        border-top: 1px solid #514c45;
+        overflow: hidden;
+    }
+
+    #e1Footer .col {
+        width: 160px;
+        float: left;
+        display: inline;
+    }
+
+        #e1Footer .col span {
+            font-weight: bold;
+            font-size: 14px;
+            display: block;
+            padding-bottom: 13px;
+        }
+
+        #e1Footer .col ul {
+            overflow: hidden;
+        }
+
+            #e1Footer .col ul li {
+                margin-top: 19px;
+            }
+
+                #e1Footer .col ul li a {
+                    color: #a2988a;
+                }
+
+    #e1Footer .fst {
+        width: 230px;
+        padding: 0 0 0 55px;
+    }
+
+    #e1Footer .sec {
+        width: 275px;
+    }
+
+    #e1Footer .third {
+        width: 240px;
+    }
+
+    #e1Footer .footerNav {
+        width: 960px;
+        border-top: 1px solid #514c45;
+        border-bottom: 1px solid #514c45;
+        clear: both;
+        overflow: hidden;
+        line-height: 26px;
+        text-align: center;
+		*position: relative;
+		*height: 70px;
+    }
+		
+	#e1Footer .footerNav span {
+		padding: 22px 0;
+		}
+
+            #e1Footer .footerNav span.country {
+                width: 222px;
+                float: left;
+                text-align: left;
+            }
+        #e1Footer .helvetica_en span.country,
+        #e1Footer .footerNav span.countryID {
+                width: 180px;
+        }
+
+                #e1Footer .footerNav span.country a {
+                    padding: 0;
+                }
+
+        #e1Footer .footerNav span.info {
+            width: 516px;
+            float: left;
+        }
+
+         #e1Footer .helvetica_en span.info,
+         #e1Footer .footerNav span.infoID {
+            width: 556px;
+        }
+
+        #e1Footer .footerNav a {
+            padding: 0 15px 0 16px;
+        }
+
+            #e1Footer .footerNav a.fst {
+                padding-left: 0;
+            }
+
+            #e1Footer .footerNav a.lst {
+                padding-right: 0;
+            }
+
+    #e1Footer p.copyRight {
+        margin: 47px 0 1px;
+        text-align: center;
+    }
+
+    #e1Footer p.icp {
+        text-align: center;
+    }
+
+        #e1Footer p.icp b 
+        {   
+            padding: 15px 0 15px 53px;
+            display: inline-block;
+            *display: inline;
+            _display: inline;
+            zoom: 1;
+            font-weight: normal;
+            background: url("/_imgs/englishfirst/gud/common/footer/footer_icp_icn.gif") no-repeat left center;
+        }
+
+    #e1Footer p.copyRight, #e1Footer p.icp {
+        clear: both;
+    }
+
+    #e1Footer .footerNav div.phone {
+        width: 212px;
+		height: 70px;
+        text-align: right;
+        line-height: 20px;
+		display: table;
+		padding: 0;
+        margin-right: 10px;
+    }
+	
+	#e1Footer .footerNav div.phone div {
+		display: table-cell;
+		vertical-align: middle;
+		*position: absolute;
+		*top: 50%;
+		*right: 0;
+		*display: inline-block;
+	}
+	
+	 #e1Footer .footerNav div.phone span {
+		*position: relative;
+		*top: -50%;
+		*right: 0;
+		padding: 0;
+	}
+        #e1Footer .footerNav div.phone em {
+            font-size: 14px;
+            font-style: normal;
+        }
+
+    #e1Footer .footerNav div.phone b {
+        font: italic 14px/1 Georgia, arial, sans-serif, SimHei;
+    }
+    
+    /* partner link start */
+.trustUs .trustBy .partners .inactive
+{
+    cursor: default;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter:alpha(opacity=40);
+    opacity: 0.4;
+}
+
+/* partner link end */

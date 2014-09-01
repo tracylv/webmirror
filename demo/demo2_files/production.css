@@ -1,0 +1,1245 @@
+/* Picture wall Wrap General */
+.gallery 
+{
+	width: 960px;
+	position: relative;
+}
+.gallery .blocks 
+{
+    width: 320px;
+    display: table;
+    position: absolute;
+}
+.gallery .blocks div 
+{
+    display: table-cell;
+    vertical-align: middle;
+    *position: absolute;
+    *top: 50%;
+    *left: 0;
+}
+.gallery p.txt 
+{
+    color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 22px;
+    text-align: center;
+	text-transform: uppercase;
+    padding: 0 40px;
+    *position: relative;
+    *top: -50%;
+    *left: 0;
+}
+.gallery .one 
+{   
+    height: 204px;
+    left: 320px;
+	*top: 0;
+}
+	.gallery .one span.icon 
+	{
+        background-position: -25px -245px;
+        width: 30px;
+        height: 27px;
+	}
+
+.gallery .two 
+{
+    height: 360px;
+    top: 204px;
+    *left: 0;
+}
+	.gallery .two span.icon 
+	{
+        background-position: -25px -302px;
+        width: 24px;
+        height: 29px;
+	}
+
+.gallery .three 
+{
+    right: 0;
+    top: 360px;
+    height: 204px;
+}
+	.gallery .three span.icon 
+	{
+        background-position: -26px -371px;
+        width: 41px;
+        height: 25px;
+	}
+
+.gallery .four 
+{
+    height: 360px;
+    left: 320px;
+    top: 564px;
+}
+
+	.gallery .four span.icon 
+		{
+			background-position: -26px -436px;
+            width: 31px;
+            height: 31px;
+		}
+		
+.gallery .five 
+{
+    top: 924px;
+    *left: 0;
+    height: 360px;
+}
+	.gallery .five span.icon 
+			{
+                background-position: -26px -513px;
+                width: 28px;
+                height: 40px;
+			}
+
+.gallery span.icon {
+    margin: 0 auto;
+}
+
+.gallery .six 
+{
+    width: 320px;
+    height: 360px;
+    left: 320px;
+    top: 204px;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFF;
+    display: table;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+.body_ru .gallery .six {
+    font-size: 35px;
+}
+
+.gallery .six div 
+{
+    display: table-cell;
+    vertical-align: middle;
+    *position: absolute;
+    *top: 50%;
+    *left: 0;
+}
+
+.gallery .six span 
+{
+    width: 240px;
+    margin: 0 auto;
+    padding: 0 40px;
+    *position: relative;
+    *top: -50%;
+    *left: 0;
+    text-align: center;
+    font-weight: bold;
+    word-wrap: break-word; 
+}
+
+.body_ru .gallery .six span,
+.body_en .gallery .six span
+{
+    width: 290px;
+    padding: 0 15px;
+}
+
+.gallery span {
+	display: block;
+}
+
+.gallery img {
+    float: left;
+}
+
+.gallery span.line 
+{
+	border-bottom: 1px solid #a19789;	
+	margin: 20px auto;
+    *margin-bottom: 0;
+    _margin-bottom: 0;
+}
+
+/* Small Stars #video */
+.blackBg h2.title span{
+	background-position: -20px -118px;
+	color: #FFF;
+}
+
+/* ALL General */
+
+h1.title, 
+h2.title, 
+h3.title
+{ 
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+	padding: 33px 0 75px;
+	text-transform: uppercase;
+}
+
+.body_cs h1.title, 
+.body_cs h2.title, 
+.body_cs h3.title
+{
+    padding-top: 24px;
+    padding-bottom: 76px;
+}
+
+h1 span,
+h2 span,
+h3 span
+{ 
+	background-position: -20px -7px;
+	display: inline-block;
+    height: 68px;
+    line-height: 106px;
+    padding: 0 20px;
+}
+
+h1.helvetica_en span,
+h2.helvetica_en span,
+h3.helvetica_en span,
+h1.helvetica_ru span,
+h2.helvetica_ru span,
+h3.helvetica_ru span,
+h1.helvetica_in span,
+h2.helvetica_in span,
+h3.helvetica_in span
+{
+    line-height: 39px;
+    padding-top: 29px;
+    height: auto;
+    display: inline;
+}
+
+h1.helvetica_cs span,
+h2.helvetica_cs span,
+h3.helvetica_cs span
+{ 
+    line-height: 47px;
+    padding-top: 23px;
+    height: auto;
+    display: inline;
+}
+
+
+/* Font Georgia */
+.subTitle, .column dl dd.title span.subTitle, .descript h4, .signUp h4, #e1Footer .footerNav span.phone
+{
+	font-family: Georgia, Arial, serif;
+	font-style: italic;
+}
+
+.body_cs .subTitle,
+.body_cs .column dl dd.title span.subTitle,
+.body_cs .descript h4
+{
+    font-family: "Microsoft Yahei", Î¢ÈíÑÅºÚ, Arial, STHeiti, SimHei;
+}
+
+p.line, span.line, dd.line
+{
+    font-size: 0;
+	padding: 0;
+    width: 35px;
+	line-height: 1;
+}
+
+.section {
+	margin: 0 auto;
+	padding: 80px 0;
+	width: 960px;
+	clear: both;
+}
+
+/* Video Wrap General */
+.videoWrap  {
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+}
+
+.videoWrap .leftBox
+{
+	width: 230px;
+	height: 368px;
+    display: inline;
+    float: left;
+    padding: 0 40px;
+	overflow: hidden;
+    display: table;
+    *position: relative;
+}
+
+.mainBox {
+    width: 230px;
+    display: table-cell;
+    vertical-align: middle;
+    *position: absolute;
+    *top: 50%;
+}
+
+.innerBox {
+    width: 230px;
+    margin: 0 auto;
+    *position: relative;
+    *top: -50%;
+}
+
+.videoWrap p.txt 
+{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.videoWrap p.title 
+{
+	font-size: 18px;
+    font-weight: bold;
+	line-height: 22px;
+}
+
+.videoWrap p.line 
+{
+	border-bottom: 1px solid #000;
+	margin: 20px 0 19px;
+}
+
+.videoWrap .rightBox 
+{
+    clear: right;
+    float: right;
+    width: 650px;
+    height: 368px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.videoWrap .rightBox .video-js {
+    left: -1px;
+    top: -1px;
+}
+
+/* 3 Square Column Wrap General */
+.column dl 
+{
+	width: 300px;
+    height: 401px;
+    float: left;
+	overflow: hidden;
+    margin-right: 30px;
+	padding-bottom: 50px;
+	background-color: #f1eae1;
+}
+
+.column dl.lst 
+{
+	margin: 0;
+}
+
+.column dl dt 
+{
+    font-size: 0;
+    margin-bottom: 46px;
+    position: relative;
+}
+
+.column dl dt.title 
+{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.column dl dd.line 
+{
+    padding: 0;
+	border-bottom: 1px solid #a19789;
+    margin: 20px 40px 19px;
+}
+
+.column dl dd.title 
+{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.column dl dd.title span.subTitle
+{
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+.column dl dd{
+    padding: 0 40px;
+}
+
+.column dl dd.txt {
+    height: 100px;
+    overflow: hidden;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/* 3 Cirle Column Wrap General */
+.cirle dl 
+{
+	width: 260px;
+    height: 100%;
+    margin-right: 65px;
+	background-color: #FFF;
+	padding-bottom: 0;
+}
+
+.cirle dl dd 
+{
+	padding: 0;
+}
+
+.cirle dl dd.txt {
+    height: auto;
+    text-align: center;
+}
+
+.cirle dl dd.title 
+{
+	text-align: center;
+}
+
+.cirle dl dd.line 
+{
+	margin: 22px auto 19px;
+}
+/* Large bg wrap */
+.largeBg
+{
+	height: 596px;
+	background-position: center 80px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/* Samll Star */
+.largeBg_ss_cn 
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/ss/cn/pd/productpage_ss_11.jpg);
+}
+.largeBg_ss_ru
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/ss/ru/pd/productpage_ss_11.jpg);
+}
+.largeBg_ss_id 
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/ss/id/pd/productpage_ss_11.jpg);
+}
+.bigHeadBg_ss_cn
+{
+    background: url(/_imgs/englishfirst/gud/courses/ss/cn/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_ss_ru
+{
+    background: url(/_imgs/englishfirst/gud/courses/ss/ru/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_ss_id
+{
+    background: url(/_imgs/englishfirst/gud/courses/ss/id/pd/header.jpg) no-repeat center top;
+}
+
+.shortRotator .bigHeadBg_ss_cn
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/ss/cn/pd/shortheader.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_ss_ru
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/ss/ru/pd/shortheader.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_ss_id
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/ss/id/pd/shortheader.jpg) no-repeat center top;
+}
+
+.shortRotator .bigHeadBg_ss_cn2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/ss/cn/pd/shortheader2.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_ss_ru2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/ss/ru/pd/shortheader2.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_ss_id2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/ss/id/pd/shortheader2.jpg) no-repeat center top;
+}
+
+/* High Flyer */
+.largeBg_hf_cn 
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/hf/cn/pd/productpage_hf_11.jpg);
+}
+.largeBg_hf_ru
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/hf/ru/pd/productpage_hf_11.jpg);
+}
+.largeBg_hf_id 
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/hf/id/pd/productpage_hf_11.jpg);
+}
+.bigHeadBg_hf_cn
+{
+    background: url(/_imgs/englishfirst/gud/courses/hf/cn/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_hf_ru
+{
+    background: url(/_imgs/englishfirst/gud/courses/hf/ru/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_hf_id
+{
+    background: url(/_imgs/englishfirst/gud/courses/hf/id/pd/header.jpg) no-repeat center top;
+}
+
+.shortRotator .bigHeadBg_hf_cn
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/hf/cn/pd/shortheader.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_hf_ru
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/hf/ru/pd/shortheader.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_hf_id
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/hf/id/pd/shortheader.jpg) no-repeat center top;
+}
+
+.shortRotator .bigHeadBg_hf_cn2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/hf/cn/pd/shortheader2.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_hf_ru2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/hf/ru/pd/shortheader2.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_hf_id2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/hf/id/pd/shortheader2.jpg) no-repeat center top;
+}
+
+/* Trailblazers */
+.largeBg_tb_cn 
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/tb/cn/pd/productpage_tb_11.jpg);
+}
+.largeBg_tb_ru
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/tb/ru/pd/productpage_tb_11.jpg);
+}
+.largeBg_tb_id 
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/tb/id/pd/productpage_tb_11.jpg);
+}
+.bigHeadBg_tb_cn
+{
+    background: url(/_imgs/englishfirst/gud/courses/tb/cn/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_tb_ru
+{
+    background: url(/_imgs/englishfirst/gud/courses/tb/ru/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_tb_id
+{
+    background: url(/_imgs/englishfirst/gud/courses/tb/id/pd/header.jpg) no-repeat center top;
+}
+
+.shortRotator .bigHeadBg_tb_cn
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/tb/cn/pd/shortheader.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_tb_ru
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/tb/ru/pd/shortheader.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_tb_id
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/tb/id/pd/shortheader.jpg) no-repeat center top;
+}
+
+.shortRotator .bigHeadBg_tb_cn2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/tb/cn/pd/shortheader2.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_tb_ru2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/tb/ru/pd/shortheader2.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_tb_id2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/tb/id/pd/shortheader2.jpg) no-repeat center top;
+}
+
+/* Frontrunner */
+.largeBg_fr_cn 
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/fr/cn/pd/productpage_fr_11.jpg);
+}
+.largeBg_fr_ru
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/fr/ru/pd/productpage_fr_11.jpg);
+}
+.largeBg_fr_id 
+{
+    background-image: url(/_imgs/englishfirst/gud/courses/fr/id/pd/productpage_fr_11.jpg);
+}
+.bigHeadBg_fr_cn
+{
+    background: url(/_imgs/englishfirst/gud/courses/fr/cn/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_fr_ru
+{
+    background: url(/_imgs/englishfirst/gud/courses/fr/ru/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_fr_id
+{
+    background: url(/_imgs/englishfirst/gud/courses/fr/id/pd/header.jpg) no-repeat center top;
+}
+
+.shortRotator .bigHeadBg_fr_cn
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/fr/cn/pd/shortheader.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_fr_ru
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/fr/ru/pd/shortheader.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_fr_id
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/fr/id/pd/shortheader.jpg) no-repeat center top;
+}
+
+.shortRotator .bigHeadBg_fr_cn2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/fr/cn/pd/shortheader2.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_fr_ru2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/fr/ru/pd/shortheader2.jpg) no-repeat center top;
+}
+.shortRotator .bigHeadBg_fr_id2
+{
+    background: url(/_imgs/englishfirst/gud/short/courses/fr/id/pd/shortheader2.jpg) no-repeat center top;
+}
+
+/* RealEnglish */
+.bigHeadBg_re_cn
+{
+    background: url(/_imgs/englishfirst/gud/courses/re/cn/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_re_ru
+{
+    background: url(/_imgs/englishfirst/gud/courses/re/ru/pd/header.jpg) no-repeat center top;
+}
+.bigHeadBg_re_id
+{
+    background: url(/_imgs/englishfirst/gud/courses/re/id/pd/header.jpg) no-repeat center top;
+}
+
+#content .largeBg h3 {
+    text-align: left;
+    padding-bottom: 0;
+    line-height: 1;
+    _padding-bottom: 0;
+}
+
+.largeBg .contents 
+{
+    width: 480px;
+	float: left;
+	color: #FFF;	
+	padding: 110px 0 0 70px;
+}
+
+.largeBg .contents .txt 
+{
+	width: 350px;
+	line-height: 20px;
+	font-size: 14px;
+}
+.largeBg .contents .txt .subTitle
+{
+	font-size: 16px;
+	padding-bottom: 39px;
+}
+
+.largeBg .contents p.line {
+	width: 9%;
+	border-bottom: 1px solid #FFF;
+	margin: 20px 0 19px;
+}
+
+/* For ID Page Line */
+.largeBg_hf_id .contents p.line,
+.largeBg_ss_id .contents p.line,
+.largeBg_tb_id .contents p.line
+{
+	width: 35px;
+	border-bottom: 1px solid #000;
+}
+
+/* For RU Page Line */
+.largeBg_fr_ru .contents p.line
+{
+	width: 35px;
+	border-bottom: 1px solid #000;
+}
+
+.largeBg_fr_ru .contents {
+    color: #000;
+}
+
+.yellowBg_id .largeBg .contents {
+    color: #000;
+}
+
+/* Title & Sub Title */
+.descript h3 
+{
+	padding-bottom: 44px;
+}
+
+.descript h4  
+{
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+/* 3 Square Column Wrap For Adults */
+.noImg dl 
+{
+	text-align: center;
+	padding-bottom: 0;
+    height: auto;
+}
+
+.noImg dl dt {
+    margin-bottom: 0;
+}
+
+.noImg dl dd {
+	padding: 0;
+}
+
+.noImg dl dd.title 
+{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.noImg dl dd.line 
+{
+	margin: 24px auto;
+}
+
+/* Title & Sub Title */
+.descript h4  
+{
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.descript p.txt 
+{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;	
+	padding-top: 30px;
+	margin-top: 30px;
+	border-top: 1px solid #a19789;
+}
+
+.descript p img {
+     padding-bottom: 50px;
+}
+
+/* Sprite */
+h1 span, 
+h2 span,
+h3 span,
+.gallery .one span.icon, 
+.gallery .two span.icon, 
+.gallery .three span.icon, 
+.gallery .four span.icon, 
+.gallery .five span.icon
+{
+	background-image: url("sprite.png");
+    background-repeat: no-repeat;
+}
+
+/* RE Sprite */
+.courseRE h1 span, 
+.courseRE h2 span,
+.courseRE h3 span,
+.courseRE .gallery .one span.icon, 
+.courseRE .gallery .two span.icon, 
+.courseRE .gallery .three span.icon, 
+.courseRE .gallery .four span.icon, 
+.courseRE .gallery .five span.icon
+{
+	background-image: url("sprite.png");
+    background-repeat: no-repeat;
+}
+
+.courseRE .gallery .one span.icon {
+    background-position: -24px -443px;
+    width: 35px;
+    height: 24px;
+}
+
+.courseRE .gallery .two span.icon {
+    background-position: -25px -245px;
+    width: 30px;
+    height: 27px;
+}
+
+.courseRE .gallery .four span.icon {
+    background-position: -24px -518px;
+    width: 29px;
+    height: 35px;
+}
+
+.courseRE .gallery .five span.icon {
+    background-position: -25px -302px;
+    width: 24px;
+    height: 29px;
+}
+/*add for GOSAM-2032 */
+a.learnMoreTxt
+{
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: none;
+    color: #000;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+}
+#learnMorePopup .main
+{
+    margin: 0 65px 62px 65px;
+}
+#learnMorePopup p.title
+{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+#learnMorePopup p.line
+{
+    border-bottom: 1px solid #a19789;
+    margin: 24px 0;
+    _margin-bottom: 0;
+}
+#learnMorePopup p.content
+{
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+/* second edition gud product page */
+.newCourseIntro .simpleIntro
+{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000;
+    padding-bottom: 33px;
+}
+
+.newCourseIntro .section
+{
+    padding-top: 45px;
+    padding-bottom: 22px;
+}
+
+.withshortHeader #wrapper .newCourseIntro .section h1
+{
+    padding-bottom: 17px;
+}
+
+.newCourseIntro ul li,
+.newCourseIntro ul li img,
+.newCourseIntro ul li .text
+{
+    float: left;
+}
+
+.newCourseIntro ul li
+{
+    padding-bottom: 18px;
+}
+
+.newCourseIntro ul li img
+{
+    width: 173px;
+    height: 173px;
+}
+
+.newCourseIntro ul li .text
+{
+    width: 770px;
+    padding-left: 15px;
+    padding-top:24px;
+}
+
+.newCourseIntro ul li .text .title
+{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.newCourseIntro ul li .text .line
+{
+    height: 1px;
+    border-top: 1px solid #a19789;
+    width: 35px;
+    margin: 11px 0 9px 0;
+}
+
+.newCourseIntro ul li .text .line
+{
+    _margin-bottom: -5px;
+}
+
+.newCourseIntro ul li .text .desc
+{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.newCourseIntro ul li .text .desc2
+{
+    padding-top: 11px;
+}
+
+.bookClass
+{
+    text-align: center;
+    padding-top: 19px;
+}
+
+.bookClass .bookBtn
+{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    color: #ec008c;
+    font-size: 12px;
+    line-height: 38px;
+    font-weight: bold;
+    height: 38px;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: url(/_imgs/englishfirst/gud/short/common/header/buttonBg.jpg) repeat-x 0 1px transparent;
+}
+
+.bookClass .bookBtn:hover
+{
+    background: none;
+    background-color: #f0f0f0;
+}
+
+.bookClass .bookBtn
+{
+    width: 145px;
+}
+
+.newCourseIntro .bookClass .bookBtn
+{
+    width: 194px;
+}
+
+.newWhyChooseEF .bookClass .bookBtn
+{
+    *margin-top: 43px;
+}
+
+.bookClass .scrollDown
+{
+    font-family: Georgia, Arial, serif;
+    font-style: italic;
+    padding-top: 35px;
+    padding-bottom: 22px;
+    background: url(/_imgs/englishfirst/gud/short/common/header/scrolldown.png) no-repeat center 56px;
+}
+
+.body_cs .bookClass .scrollDown
+{
+    font-family: "Microsoft Yahei", Î¢ÈíÑÅºÚ, Arial, STHeiti, SimHei;
+}
+
+.landingBanner
+{
+    background-color: #333;
+}
+
+.landingBanner .bannersCon
+{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.landingBanner .bannersCon .banner,
+.landingBanner .bannersCon .banner img
+{
+    width: 464px;
+    height: 111px;
+}
+
+.landingBanner .bannersCon .banner1,
+.landingBanner .bannersCon .banner1 img
+{
+    float: left;
+}
+
+.landingBanner .bannersCon .banner2,
+.landingBanner .bannersCon .banner2 img
+{
+    float: right;
+}
+
+.newWhyChooseEF
+{
+    background-color: #f5f5f5;
+}
+
+.newWhyChooseEF .section
+{
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.withshortHeader #wrapper .newWhyChooseEF .section h3
+{
+    padding-bottom: 48px;
+}
+
+.newWhyChooseEF .column dl
+{
+    width: 306px;
+    height: 450px;
+    border: 1px solid #B4B4B4;
+    margin-right: 17px;
+    background-color: #f5f5f5;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.body_ru .newWhyChooseEF .column dl,
+.body_in .newWhyChooseEF .column dl
+{
+    height: 580px;
+}
+
+.newWhyChooseEF .column .lst
+{
+    margin-right: 0;
+}
+
+.newWhyChooseEF .column dl img
+{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.newWhyChooseEF .column dl dd.line
+{
+    margin: 11px 23px;
+    padding: 0;
+}
+
+.newWhyChooseEF .column dl dd
+{
+    padding: 0 23px;
+}
+
+.newWhyChooseEF .column dl .title .subTitle
+{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.newWhyChooseEF .column dl dt
+{
+    margin-bottom: 0;
+    padding-bottom: 14px;
+}
+
+.newWhyChooseEF .column .txt
+{
+    height: auto;
+    max-height: 155px;
+}
+
+.body_ru .newWhyChooseEF .column .txt,
+.body_in .newWhyChooseEF .column .txt
+{
+    max-height: 260px;
+}
+
+.newWhyChooseEF .column .txt p
+{
+    padding-bottom: 9px;
+    line-height: 22px;
+    padding-left: 10px;
+    text-indent: -10px;
+}
+
+.newWhyChooseEF .column .txt a
+{
+    position: absolute;
+    left: 23px;
+    bottom: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+    background: url(/_imgs/englishfirst/gud/short/common/header/readmorearrow.jpg) no-repeat 100% 2px;
+}
+
+.newWhyChooseEF .column
+{
+    margin-bottom: 24px;
+}
+
+.newCoursePageVideo .textBeforeStart
+{
+    position: absolute;
+    left: 28px;
+    bottom: 54px;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Georgia, Arial, serif;
+    color: #fff;
+    font-style: italic;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+.newCoursePageVideo .blackBg
+{
+    background-color: #333;
+}
+
+
+.fixedPlayBtn .vjs-controls
+{
+    display: block;
+}
+
+.newCoursePageVideo .section
+{
+    padding: 70px 0;
+}
+
+.body_cs .newCoursePageVideo .textBeforeStart
+{
+    font-family: "Microsoft Yahei", Î¢ÈíÑÅºÚ, Arial, STHeiti, SimHei;
+}
+
+.withshortHeader #content .signUp .section
+{
+    padding-top: 52px;
+    padding-bottom: 55px;
+}
+
+.withshortHeader #content .signUp a
+{
+    margin-top: 20px;
+}
+
+#content .signUp a:hover
+{
+    background-color: #f0f0f0;
+}
+
+.findSchoolArea
+{
+    height: 252px;
+    background: url(/_imgs/englishfirst/gud/short/common/header/schoolmap.jpg) no-repeat center top #75869c;
+}
+
+#content .findSchoolArea .signUp h4
+{
+    font-family: 'Roboto Condensed', 'Helvetica Neue', Arial;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 38px;
+}
+
+.body_cs #content .findSchoolArea .signUp h4
+{
+    font-family: "Microsoft Yahei", Î¢ÈíÑÅºÚ, Arial, STHeiti, SimHei;
+}
+
+.withshortHeader #content .findSchoolArea .signUp .section
+{
+    padding-top: 73px;
+}
+
+.body_cs .shortRotator .rotator2 .productPageBg_ss .intro
+{
+    padding-top: 63px;
+}
+
+.body_cs .shortRotator .rotator2 .productPageBg_hf .intro,
+.body_cs .shortRotator .rotator2 .productPageBg_tb .intro,
+.body_cs .shortRotator .rotator2 .productPageBg_fr .intro
+{
+    padding-top: 43px;
+}
+
+
+
+.body_ru .shortRotator .rotator2 .productPageBg_ss .intro,
+.body_in .shortRotator .rotator2 .productPageBg_ss .intro,
+.body_ru .shortRotator .rotator2 .productPageBg_hf .intro,
+.body_ru .shortRotator .rotator2 .productPageBg_tb .intro,
+.body_ru .shortRotator .rotator2 .productPageBg_fr .intro,
+.body_in .shortRotator .rotator2 .productPageBg_hf .intro,
+.body_in .shortRotator .rotator2 .productPageBg_tb .intro,
+.body_in .shortRotator .rotator2 .productPageBg_fr .intro
+{
+    padding-top: 50px;
+}
+
+.body_in .shortRotator .rotator2 .productPageBg_ss .intro
+{
+    width: 550px;
+}

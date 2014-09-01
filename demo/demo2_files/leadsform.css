@@ -1,0 +1,1482 @@
+/* leadsform.css, layout of leads form */
+
+.clearFix
+{
+    min-height:1%;
+    display:block;
+    margin:0;
+    padding:0;
+}
+
+.clearBoth
+{
+    clear:both;
+}
+
+img
+{
+    vertical-align:bottom;
+    border:none;
+}
+
+.pointer
+{
+    cursor:pointer;
+}
+
+.formContainer
+{
+    width:355px;
+    margin:0 auto;
+    padding-top:10px;
+    color: #292828;
+    font-size: 13px;
+    position:relative;
+    background:#f9f9f9;
+}
+
+.formContainer span
+{
+    display: block;
+    float: left;
+}
+
+.formContainer input
+{
+    background-color: transparent;
+    border: 0 none;
+    text-align:left;
+    font-size:13px;
+    outline: none;
+}
+
+.inputContent
+{
+    height:18px;
+    line-height: 18px;
+    margin: 8px 0 0 6px;
+    width:208px;
+    float:left;
+    color:#707070;
+}
+
+.inputArea
+{
+    height:32px;
+    clear:both;
+    margin: 0 0 20px 0;
+}
+
+.inputTag
+{
+    text-align:right;
+    line-height:14px;
+    font-weight:bold;
+    padding:8px 15px 0 0;
+    overflow:hidden;
+}
+
+.inputBox
+{
+    border: 1px solid #CCCCCC;
+    height: 28px;
+    position: relative;
+    width: 218px;
+}
+
+.dropdownArrow
+{
+    position:absolute;
+    top:0;
+    right:0;
+    overflow: hidden;
+}
+
+.tipIcon
+{
+    background: url(leadsform_sprite.png) no-repeat scroll 0 -366px transparent;
+    height: 24px;
+    position: absolute;
+    right: 4px;
+    top:1px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.validationIcon
+{
+    background: none;
+    float:left;
+}
+
+.rightSpace
+{
+    margin-right:3px;
+}
+
+.inputArea .active
+{
+    border: 1px solid #ffc600;
+}
+
+.inputArea .active .inputContent
+{
+    font-weight: bold;
+}
+
+.formContainer .inputArea .correct .validationIcon
+{
+    background: url(leadsform_sprite.png) no-repeat scroll 0 -72px transparent;
+    display: block;
+}
+
+.inputArea .error,
+.inputWrapper div.topBtnWrap .error .listContainer,
+.inputWrapper .error .listContainer
+{
+    border: none;
+}
+
+
+/*----------------form bottom-------------------*/
+.formBottom
+{
+    height: 80px;
+    padding:0;
+}
+
+.formContainer .btnImg
+{
+    display:inline-block;
+    height:37px;
+    width:45px;
+    cursor:pointer;
+}
+
+.formContainer .formBtnText
+{
+    display:inline-block;
+    height:40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    width:270px;
+    cursor:pointer;
+    background-color: #e9168b;
+}
+
+.formContainer .formBtnText:hover
+{
+    background-color: #d1117c;
+}
+
+.formContainer .btnImgA
+{
+    display:none;
+    height:0;
+    width:0;
+    cursor:pointer;
+}
+
+.formBottom .formPrivacy
+{
+    height:19px;
+    padding: 0;
+    margin:16px 0 0 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.formContainer .formBottom .formPrivacy span
+{
+    color: #107db3;
+    font-size:12px;
+    line-height: 18px;
+    text-decoration:underline;
+    float: none;
+}
+
+/*----------------form bottom-------------------*/
+
+.formContainer .listContainer
+{
+    background:none;
+    float:left;
+    border: 1px solid #CCCCCC;
+    height: 29px;
+    position: relative;
+    width: 308px;
+    margin-right: 0px;
+}
+
+.formContainer .listBody
+{
+    display: none;
+    overflow: auto;
+    position: absolute;
+    top:31px;
+    left: 0;
+    text-align: left;
+    z-index: 1999;
+    background-color: #A2988A;
+    color:#FFFFFF;
+    font-size: 14px;
+}
+
+.formContainer .formBody .listActiveUp
+{
+    top: auto;
+    bottom: 31px;
+}
+
+.formContainer .formBody .listActive
+{
+    display: block;
+}
+
+.formContainer .listShort
+{
+    width:102px;
+}
+.formContainer .listLong
+{
+    width:270px;
+}
+
+.formContainer ul li
+{
+    list-style-type:none;
+}
+
+.errorMsg ul li
+{
+    height: auto;
+}
+
+.formContainer ul li.formDorpdownHover
+{
+    background-color: #8d8172;
+}
+
+.formContainer ul li.formDorpdownSelect
+{
+    background-color: #6F6A5F;
+    font-weight:700;
+}
+
+.listBody ul
+{
+    max-height:165px;
+    _height:120px;
+    overflow:auto;
+}
+
+.listBody ul li
+{
+    cursor: pointer;
+    line-height:33px;
+    height: 33px;
+    padding-left:9px;
+}
+
+.listBody ul, .listBody li
+{
+    margin: 0;
+    padding: 0;
+}
+
+.formContainer .topBtnWrap
+{
+    height:32px;
+    padding-bottom:20px;
+    text-align: left;
+}
+
+.formContainer .topBtnWrap .listContainer
+{
+    width:100px;
+    float:left;
+    display:inline;
+    height:30px;
+    border: 1px solid #9D9996;
+}
+
+.formListTrigger .boxWrap .boxLeft
+{
+    text-align:left;
+    padding: 6px 0 0 14px;
+    float:left;
+    display:inline;
+    color: #a2988b;
+}
+
+
+.inputWrapper .schoolListWrapper .inputContent
+{
+    text-align: center;
+    width: 275px;
+}
+
+.formContainer .formList1
+{
+    margin-right:20px;
+}
+
+.formContainer .formList2
+{
+    margin-right:0;
+}
+
+.schoolListWrapper
+{
+    display: none;
+    height:32px;
+    clear:both;
+    margin: 0 0 20px 0;
+}
+
+/*----------------tip box-------------------*/
+.popTipBox
+{
+    display:none;
+    position: absolute;
+    bottom: 35px;
+    right: -1px;
+    z-index: 9999;
+    text-align: left;
+    width: 313px;
+    font-size:12px;
+    line-height:14px;
+}
+
+.popTipBox .boxBottom
+{
+    height: 11px;
+}
+
+.popTipBox .boxContent p
+{
+    color: #fff;
+}
+
+/*----------------tip box-------------------*/
+
+
+/*--------------Validation Alert---------------*/
+.errorMsg
+{
+    width:240px;
+    position:absolute;
+    left:-240px;
+    top: 0;
+    text-align:left;
+    font-size:14px;
+    line-height:20px;
+    font-weight:normal;
+    color:#ffffff;
+    display:none;
+    background-color: #000;
+}
+
+.errorMsg .msgMiddle
+{
+    width:180px;
+    margin:0 auto;
+    padding:0;
+}
+
+.errorMsg ul li
+{
+    padding: 0 0 7px 0;
+    display:none;
+    text-indent: 10px;
+}
+
+.errorMsg .msgMiddle .top
+{
+    display:block;
+    height: 64px;
+    border-bottom: 1px solid #fff;
+}
+
+.msgMiddle .last
+{
+    margin-bottom: 0;
+}
+
+.msgMiddle li.show
+{
+    display:block;
+}
+/*--------------Validation Alert---------------*/
+.formContainer .moreInfo
+{
+    color:#8c8c8c;
+    font-size:12px;
+    line-height:20px;
+}
+
+.formContainer .moreInfo input
+{
+    float: left;
+}
+
+.formContainer .moreInfo div
+{
+    margin-left:20px;
+}
+
+
+/* ----override for lpform2013---- */
+
+.clearFix:after
+{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.formContainer
+{
+    width: 330px;
+    height: 445px;
+    padding-top: 0;
+    background-color: #fff;
+}
+
+.formContainer .headline .headlineCon
+{
+    padding: 0;
+    margin: 0 auto;
+    width: 270px;
+}
+
+.formContainer .headline p
+{
+    color: #000;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-top: 26px;
+    padding-bottom: 17px;
+}
+
+.formContainer .headline .line
+{
+    width: 35px;
+    height: 1px;
+    background-color: #000;
+}
+
+.formContainer .formBody
+{
+    width: 270px;
+    margin: 20px auto 0;
+}
+
+.formContainer .inputBox
+{
+    border: 1px solid #9d9996;
+    height: 30px;
+    width: 268px;
+}
+
+.formContainer .correct
+{
+    border: 1px solid #000;
+}
+
+.formContainer .error
+{
+    border: 1px solid #fe3255;
+}
+
+.formContainer .topBtnWrap .listBorder
+{
+    border: none;
+    position: relative;
+}
+
+.formContainer .schoolListWrapper
+ {
+     border: none;
+     width: 270px;
+     position: relative;
+ }
+
+.formContainer .schoolListWrapper .listContainer
+{
+    width: 268px;
+}
+
+.formContainer .listContainer
+{
+    border: 1px solid #9D9996;
+    outline: none;
+}
+
+.formContainer .error .listContainer
+{
+    border: 1px solid #fe3255;
+}
+
+.formContainer .correct .listContainer
+{
+    border: 1px solid #000;
+}
+
+.formContainer .inputWrapper .validationIcon
+{
+    background: none;
+    display:none;
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+.formContainer .inputArea .correct .tipIcon
+{
+    display: none;
+}
+
+.formContainer .inputWrapper .topBtnWrap .correct .formList1
+{
+    border: 1px solid #000;
+}
+
+.formContainer .inputWrapper .topBtnWrap .correct .formList1 .boxLeft,
+.formContainer .inputWrapper .topBtnWrap .correct .formList2 .boxLeft
+{
+    color: #707070;
+}
+
+.formContainer .inputWrapper .topBtnWrap .error .formList1
+{
+    border: 1px solid #FE3255;
+}
+
+.formContainer .inputWrapper .listArrow
+{
+    background: none;
+    display:none;
+}
+
+.formContainer .inputWrapper .topBtnWrap .formList2
+{
+   width: 146px;
+}
+
+.formContainer .inputWrapper .topBtnWrap .correct .formList2
+{
+    border: 1px solid #000;
+}
+
+.formContainer .inputWrapper .topBtnWrap .error .formList2
+{
+    border: 1px solid #fe3255;
+}
+
+.formContainer .formList2 .boxWrap .boxLeft
+{
+    width: 136px;
+    padding-right: 0;
+}
+
+.formContainer .schoolListWrapper
+{
+    height: 32px;
+}
+
+.formContainer .listContainer
+{
+
+    width: 244px;
+    height: 30px;
+}
+
+.formContainer .inputWrapper .schoolListWrapper .inputContent
+{
+    text-align: left;
+    width: 260px;
+    overflow: hidden;
+    color: #a2988b;
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.formContainer .correct .listContainer .inputContent
+{
+    color: #707070;
+}
+
+.formContainer .formBottom
+{
+    padding-top: 0px;
+}
+
+.formContainer .popTipBox .boxTop,
+.formContainer .popTipBox .boxMiddle,
+.formContainer .popTipBox .boxBottom,
+.formContainer .popTipBox .boxContent p,
+.formContainer .popTipBox .phoneIcon,
+.formContainer .popTipBox .emailIcon
+{
+    background: none;
+}
+
+.formContainer .popTipBox .boxBottom
+{
+    height: 11px;
+    background: url(arrow.png) no-repeat scroll 0 0 transparent;
+    position: absolute;
+    width: 21px;
+    right: 7px;
+    bottom: -11px;
+}
+
+.formContainer .popTipBox
+{
+    width: 293px;
+    background-color: #a2988b;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.formContainer .popTipBox_en,
+.formContainer .popTipBox_in
+{
+    margin-top: 16px;
+}
+
+.formContainer .popTipBox .boxTop,
+.formContainer .popTipBox .boxMiddle
+{
+    width: 233px;
+    margin: 0 auto;
+}
+
+.formContainer .popTipBox .boxTop
+{
+    height: 64px;
+    background: url(leadsform_sprite.png) no-repeat scroll -2px -481px transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.formContainer .popTipBoxEmail .boxTop
+{
+    background: url(leadsform_sprite.png) no-repeat scroll -2px -184px transparent;
+}
+
+.popTipBox .boxContent
+{
+    margin: 15px 0 26px 0;
+}
+
+.formContainer .listBorder .formCityList
+{
+    width: 148px;
+    right: 0;
+}
+
+.formContainer .formList1 .boxWrap .boxLeft,
+.formContainer .formList2 .boxWrap .boxLeft,
+.formContainer .schoolListWrapper .inputContent
+{
+    font-size: 14px;
+}
+
+.formContainer .inputArea
+{
+    position: relative;
+}
+
+.formContainer .inputArea .inputTag
+{
+    position: absolute;
+    display: block;
+    top: 9px;
+    left: 10px;
+    z-index: 10;
+    font-weight: normal;
+    color: #a2988b;
+    text-align: left;
+    padding: 0;
+    cursor: text;
+    font-size: 14px;
+}
+
+.formContainer .inputContent
+{
+    font-family: arial, sans-serif;
+    color: #707070;
+    float:left;
+    height: 18px;
+    font-size: 14px;
+    border: none;
+    outline: medium none;
+    text-align: left;
+    line-height: 18px;
+    margin: 6px 8px 0 8px;
+    width: 252px ;
+}
+
+.body_cs .formContainer .inputContent
+{
+    font-family: "Microsoft Yahei", Î¢ÈíÑÅºÚ, Arial, STHeiti, SimHei;
+}
+
+.formContainer .inputArea .inputBox
+{
+    cursor: text;
+}
+
+.formContainer .formList1 .boxWrap .boxLeft,
+.formContainer .formList2 .boxWrap .boxLeft
+{
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.formContainer .formList1 .boxWrap .boxLeft
+{
+    width: 63px;
+}
+
+.formContainer .moreInfo
+{
+    padding-bottom: 5px;
+    line-height: 19px;
+}
+
+.formContainer .listContainer
+{
+    background: url(leadform_dropdown.png) no-repeat scroll 100% 0 transparent;
+}
+
+.formSchoolList ul li
+{
+    overflow: hidden;
+}
+
+.errorMsg .msgMiddle .top
+{
+    background: url(leadsform_sprite.png) no-repeat scroll -2px -261px transparent;
+    margin-bottom: 16px;
+}
+
+.errorMsg .msgMiddle ul li
+{
+    background: url(disc.jpg) no-repeat scroll -1px 3px transparent;
+}
+
+.errorMsg .msgMiddle ul
+{
+    margin-bottom: 19px;
+}
+
+
+
+
+/* contact us popup form css start */
+div.cusmPopup
+{
+    padding: 0;
+    overflow: visible;
+}
+
+.cusmPopup .ui-dialog-titlebar
+{
+    display: none;
+}
+
+.bigPopup
+{
+    width: 820px;
+    height: 532px;
+}
+
+.bigPopup .closeBtn
+{
+    cursor: pointer;
+    float: right;
+    margin-top: 16px;
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+    background: url("/_imgs/englishfirst/gud/JqueryUI/dialog_box_close_btn.png");
+}
+
+.bigPopup .top
+{
+    display:block;
+    height: 60px;
+}
+
+.bigPopup .popupContent
+{
+    padding-bottom: 60px;
+    height: 427px;
+}
+.bigPopup .noQAPopupContent
+{
+    height:auto;
+}
+
+.bigPopup .popupContent .leftPart
+{
+    width: 407px;
+}
+.bigPopup .popupContent .rightPart
+{
+    width: 413px;
+}
+
+.longForm .formContainer
+{
+    width: 413px;
+    height: auto;
+}
+
+.longForm .formContainer .formBody
+{
+    width: 293px;
+    margin: 0 auto 0 60px;
+}
+
+.longForm .formContainer .headline
+{
+    display: none;
+}
+
+.longForm .formContainer .inputBox,
+.longForm .formContainer .schoolListWrapper .listContainer
+{
+    width: 291px;
+}
+
+.longForm .formContainer .topBtnWrap .listContainer
+{
+    width: 114px;
+}
+
+.longForm .formContainer .inputWrapper .topBtnWrap .formList2
+{
+    width: 155px;
+}
+
+.longForm .formContainer .listLong
+{
+    width: 293px;
+}
+
+.longForm .formContainer .listShort
+{
+    width: 116px;
+}
+
+.longForm .formContainer .listBorder .formCityList
+{
+    width: 157px;
+}
+
+.longForm .formContainer .formList1 .boxWrap .boxLeft
+{
+    width: 83px
+}
+
+.longForm .formContainer .formList2 .boxWrap .boxLeft
+{
+    width: 123px
+}
+
+.longForm .formContainer .inputWrapper .schoolListWrapper .inputContent
+{
+    width: 255px;
+}
+
+.longForm .formContainer .formBottom .formBtnText
+{
+    width: 200px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.body_en .longForm .formContainer .formBottom .formBtnText
+{
+    width: 170px;
+}
+
+.popupContent_ru .longForm .formContainer .formBottom .formBtnText,
+.popupContent_id .longForm .formContainer .formBottom .formBtnText,
+.body_ru .longForm .formContainer .formBottom .formBtnText,
+.body_in .longForm .formContainer .formBottom .formBtnText
+{
+    width: 132px;
+}
+
+.longForm .formContainer .formBottom .formBtn
+{
+    float: right;
+}
+
+.longForm .formContainer .formBottom .formPrivacy
+{
+    float: left;
+}
+
+.longForm .formContainer .formBottom .formPrivacy span
+{
+    font-size: 14px;
+}
+
+.longForm .formBottom .formPrivacy
+{
+    padding-left: 18px;
+    background: url("leadsform_sprite.png") no-repeat scroll -3px -441px transparent;
+}
+
+.longForm .formContainer .errorMsg
+{
+    left: -197px;
+}
+
+.longForm .formContainer .formBottom
+{
+    height: 47px;
+}
+
+.contactUs .formContainer .question,
+.contactUsQA .formContainer .question
+{
+    height: 100px;
+}
+
+.contactUs .formContainer .question .inputBox,
+.contactUsQA .formContainer .question .inputBox
+{
+    height: 98px;
+}
+
+.contactUs .formContainer .question .inputBox textarea,
+.contactUsQA .formContainer .question .inputBox textarea
+{
+    overflow: auto;
+    resize: none;
+    width: 275px;
+    height: 86px;
+    border-width: 0;
+}
+
+.contactUs .popupContent_id .formContainer .moreInfoCon,
+.contactUs .popupContent_ru .formContainer .moreInfoCon,
+.contactUsQA .popupContent_id .formContainer .moreInfoCon,
+.contactUsQA .popupContent_ru .formContainer .moreInfoCon
+{
+    display: block;
+}
+
+.contactUs .formContainer .moreInfoCon,
+.contactUsQA .formContainer .moreInfoCon
+{
+    font-size: 14px;
+    line-height: 20px;
+    color: #a2988b;
+}
+
+.contactUs .formContainer .moreInfoCon .moreInfoDisplay,
+.contactUsQA .formContainer .moreInfoCon .moreInfoDisplay
+{
+    background: url("checkboxbg.jpg") no-repeat scroll 0 -38px transparent;
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    margin: 5px 15px 0 0;
+    float:left;
+    cursor: pointer;
+}
+
+.contactUs .formContainer div.moreInfoCon .selected,
+.contactUsQA .formContainer div.moreInfoCon .selected
+{
+    background: url("checkboxbg.jpg") no-repeat scroll 0 0 transparent;
+}
+
+.contactUs .formContainer .moreInfoCon .moreInfo,
+.contactUsQA .formContainer .moreInfoCon .moreInfo
+{
+    display: none;
+}
+
+
+.contactUs .formContainer .moreInfoCon span,
+.contactUsQA .formContainer .moreInfoCon span
+{
+    display: block;
+    float: left;
+    width: 250px;
+}
+
+.contactUs .commonQuestion,
+.contactUsQA .commonQuestion
+{
+    width: 347px;
+    margin-left: 60px;
+    color: #000;
+}
+
+.contactUs .commonQuestion .title,
+.contactUsQA .commonQuestion .title
+{
+    width: 320px;
+    border-bottom: 1px solid #a2988b;
+    padding-bottom: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.contactUs .commonQuestion .txt,
+.contactUsQA .commonQuestion .txt
+{
+    padding-top:16px;
+    height: 370px;
+}
+
+.contactUs .commonQuestion .title h4,
+.contactUsQA .commonQuestion .title h4
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contactUs .commonQuestion .overview p,
+.contactUsQA .commonQuestion .overview p
+{
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    padding-left: 30px;
+    padding-bottom: 12px;
+}
+
+.contactUs .commonQuestion .overview .ques,
+.contactUsQA .commonQuestion .overview .ques
+{
+    background: url("quesIcon.jpg") no-repeat scroll -2px -1px transparent;
+}
+
+.contactUs .commonQuestion .overview .answer,
+.contactUsQA .commonQuestion .overview .answer
+{
+    background: url("ansIcon.jpg") no-repeat scroll -2px -1px transparent;
+}
+
+
+
+/* customize scroll bar start */
+.customScrollbar .viewport
+{
+    height: 370px;
+    width: 339px;
+    _width: 337px;
+    margin-right: 0;
+    overflow: hidden;
+    position:relative;
+}
+
+.customScrollbar .overview { 
+	list-style: none; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	width: 320px;
+	padding-right: 26px;
+}
+
+.customScrollbar .thumb
+{
+    background: url("trackBg.jpg") no-repeat scroll 50% 100% transparent;
+}
+
+.customScrollbar .thumb .end
+{
+    background: url("trackBg.jpg") no-repeat scroll 50% 0 transparent;
+}
+
+.customScrollbar .thumb .end,
+.customScrollbar .thumb
+{
+    margin: 0;
+}
+
+.customScrollbar .track  
+{
+    background: url("scrollBgBottom.jpg") no-repeat scroll 0 100% transparent;
+    height: 233px;
+    width: 7px; 
+    position: relative; 
+    padding: 0; 
+}
+
+.customScrollbar .thumb
+{
+    height: 20px;
+    width: 7px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.customScrollbar .thumb .end
+{
+    overflow: hidden;
+    height: 5px;
+    width: 7px; 
+}
+
+.customScrollbar .disable
+{
+    display: none; 
+}
+
+.customScrollbar .scrollbar
+{
+    background: url("scrollBg.jpg") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 370px;
+    margin: 0;
+    position: relative;
+    width: 7px;
+    right: 1px;
+}
+  /* customize scroll bar end */
+/* contact us popup form css end */
+
+
+
+/* pink button popup form css start */
+.pinkBtnPopup .campCon .camp
+{
+    margin-left: 60px;
+    width: 347px;
+}
+
+.pinkBtnPopup .campCon .camp .title h4
+{
+    font-size: 18px;
+    line-height:24px;
+    color:#000;
+    font-weight: bold;
+    padding-bottom: 22px;
+    text-transform: uppercase;
+}
+
+.pinkBtnPopup .campCon .camp .overview p
+{
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    padding-bottom:16px;
+}
+
+.pinkBtnPopup .customScrollbar .viewport
+{
+    height: 331px;
+}
+
+.pinkBtnPopup div.popupContent
+{
+    height: 377px;
+}
+
+/* pink button popup form css end */
+
+
+/* leads form tickbox for other leads form start */
+.body_in .formContainer .moreInfoCon,
+.body_ru .formContainer .moreInfoCon
+{
+    display: block;
+}
+
+.formContainer .moreInfoCon
+{
+    font-size: 14px;
+    line-height: 20px;
+    color: #a2988b;
+}
+
+.formContainer .moreInfoCon .moreInfoDisplay
+{
+    background: url("checkboxbg.jpg") no-repeat scroll 0 -38px transparent;
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    margin: 5px 15px 0 0;
+    float:left;
+    cursor: pointer;
+}
+
+.formContainer div.moreInfoCon .selected
+{
+    background: url("checkboxbg.jpg") no-repeat scroll 0 0 transparent;
+}
+
+.formContainer .moreInfoCon .moreInfo
+{
+    display: none;
+}
+
+.formContainer .moreInfoCon span
+{
+    display: block;
+    float: left;
+    width: 250px;
+}
+
+.rotator .formContainer .moreInfoCon span
+{
+    width: 235px;
+}
+
+.rotator .schoolRotator .formContainer .moreInfoCon span
+{
+    width: 250px;
+}
+
+.rotator .formContainer .moreInfoCon .moreInfoDisplay
+{
+    margin-right: 14px;
+}
+/* leads form tickbox for other leads form end */
+
+/* for ru show tickbox start */
+.tickBoxShow .formContainer .headline .line
+{
+    display: none;
+}
+
+.tickBoxShow .formContainer .formBody
+{
+    margin-top: 0;
+}
+
+.tickBoxShow .formContainer .formBtnText
+{
+    height: 35px;
+    line-height: 35px;
+}
+
+.tickBoxShow .formBottom .formPrivacy
+{
+    margin-top: 9px;
+}
+
+div .tickBoxShow .formContainer .moreInfoCon span
+{
+    font-size: 12px;
+    line-height: 18px;
+    width: 225px;
+}
+
+.tickBoxShow .formContainer .formBottom
+{
+    height: 73px;
+}
+
+div .tickBoxShow .formContainer .moreInfoCon .moreInfoDisplay
+{
+    margin-right: 20px;
+}
+
+
+/* for ru show tickbox end */
+
+/* ru main leads form city too long start */
+.body_ru .masterRotator  .formContainer .inputWrapper .topBtnWrap .formList2
+{
+    width: 156px;
+}
+
+.body_ru .masterRotator .formContainer .listBorder .formCityList
+{
+    width: 158px;
+}
+
+.body_ru .masterRotator .formContainer .topBtnWrap .listContainer
+{
+    width: 95px;
+}
+
+.body_ru .masterRotator .formContainer .listShort
+{
+    width: 97px;
+}
+
+.body_ru .masterRotator .formContainer .formList1
+{
+    margin-right: 15px;
+}
+/* ru main leads form city too long end */
+
+/* contact us question field hint text ie6 bug */
+.contactUs .contactForm .formContainer .question .inputTag,
+.contactUsQA .contactForm .formContainer .question .inputTag
+{
+    width: 273px;
+    height: 80px;
+}
+
+/* make cn submit button text bigger */
+.body_cs .pinkRotator .pinkLead .pinkBtn a,
+.body_cs .formContainer .formBtnText
+{
+    font-size: 13px;
+}
+
+/* ie6 phone, email icon hover popup fix */
+.longForm .formContainer .popTipBox
+{
+    _right: -2px;
+}
+
+/* short leadsform */
+.shortLeadsForm .formCon,
+.shortLeadsForm .formContainer
+{
+    width: 326px;
+    height: 346px;
+}
+
+.shortLeadsForm .formContainer .headline
+{
+    position: relative;
+}
+
+.shortLeadsForm .formContainer .headline .specialTag
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    _left: -28px;
+    top: -18px;
+    width: 80px;
+    height: 42px;
+    background: url("special.png") no-repeat scroll 0 0 transparent;
+    _background: url("special.gif") no-repeat scroll 0 0 transparent;
+}
+
+.shortLeadsForm .formContainer .headline .hideSpecialTag
+{
+    display: none;
+}
+
+.pinkShortRotator .shortLeadsForm .formContainer .headline .showSpecialTag
+{
+    display: block;
+}
+
+.shortLeadsForm .formContainer .headline .headlineCon
+{
+    width: auto;
+    margin-left: 28px;
+    height: 85px;
+}
+
+.shortLeadsForm .formContainer .headline .leadsTitle
+{
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 24px;
+    padding-top: 26px;
+    padding-bottom: 8px;
+}
+
+.shortLeadsForm .formContainer .headline .leadsSubTitle
+{
+    padding:0;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    padding-bottom: 13px;
+}
+
+.shortLeadsForm .formContainer .inputArea
+{
+    margin-bottom: 5px;
+}
+
+.shortLeadsForm .formContainer .topBtnWrap
+{
+    padding-bottom: 5px;
+}
+
+.shortLeadsForm .formContainer .schoolListWrapper
+{
+    margin-bottom: 5px;
+}
+
+.shortLeadsForm .formContainer .formBottom
+{
+    height: 35px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.shortLeadsForm .formContainer .formBottom .formPrivacy
+{
+    float: left;
+    margin-top: 0;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+.shortLeadsForm .tickBoxShow .formContainer .formBottom .formPrivacy
+{
+    float: left;
+    margin-top: 0;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+
+.shortLeadsForm .formContainer .formBottom .formBtn
+{
+    float: right;
+}
+
+.body_ru .shortLeadsForm .formContainer .formBtnText
+{
+    width: 150px;
+}
+
+.body_cs .shortLeadsForm .formContainer .formBtnText
+{
+    width: 210px;
+}
+
+.body_in .shortLeadsForm .formContainer .formBtnText
+{
+    width: 163px;
+}
+
+.body_en .shortLeadsForm .formContainer .formBtnText
+{
+    width: 185px;
+}
+
+.shortLeadsForm .formContainer .formBody
+{
+    margin-top: 0;
+}
