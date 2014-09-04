@@ -50,30 +50,22 @@ var webmirror_defaults =
 $.webmirror_options = {};
 ```
 #### Override Default Parameters:
+you can override one or more parameters with $.webmirror_options, like this:    
+```
+$.webmirror_options = {opacity: 0.2};
+
+$.webmirror_options = {opacity: 0.3, width: 400, height: 400};
+
+$.webmirror_options = {offset: {top: 100, left: 100}, imgpath: "designpath/xx/xxx.jpg"};
+```
 ![webmirror screenshot][3] 
 
-
-
 #### Suggestions:
-1. remove the webmirror.js from your page after you finished web frontend developing work.
+1. remove the webmirror.js from your page after you finished web frontend developing work.    
 
 #### Known Issues:
 1. in IE browsers, sometimes mousewheel scroll Up/Down couldn't scroll the page, only update the design layer opacity instead.     
 *Solution: Press "Alt" Key again.*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
