@@ -8,7 +8,7 @@ Webmirror
 
 ### Demo Screenshot:
 ![webmirror screenshot][1]
-#### How To Apply It In Your Page?
+#### How To Deply It Into Your Page?
 * *Firstly, include the webmirror.js at the bottom of your page.* 
 ![webmirror screenshot][2]   
 if your page didn't include jquery, you also need include jquery in front of webmirror.js, see below:
