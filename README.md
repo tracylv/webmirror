@@ -9,12 +9,14 @@ Webmirror
 ### Demo Screenshot:
 ![webmirror screenshot][1]
 #### How To Deploy It Into Your Page?
-* *Firstly, include the webmirror.js at the bottom of your page, and then save and refresh page.* 
+* *Firstly, include the webmirror.js at the bottom of your page.* 
 ![webmirror screenshot][2]   
+if your page didn't include jquery, you also need include jquery in front of webmirror.js, see below:
 ```
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js" ></script>
 <script type="text/javascript" src="../webmirror.js" ></script>
-```
+```      
+
 * *Secondly, name your design image as "design.jpg" and put it in the same directory of your page.*     
   **Note:** you can also name the design image as other names and put in other directory, but you need to override the default design path parameter. we will talk about override parameters in following section(Override Default Parameters).
 
