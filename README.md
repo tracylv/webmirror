@@ -1,20 +1,23 @@
 Webmirror
 =========
 
-This is a web front end developing tool, it helps us develop the web page exactly same with design.              
-This tool is developed based on jquery. and also include jquery mousewheel plugin and jquery cookie plugin inside.     
-**It is supported in all browsers[Firefox, Chrome, Safari, Opera, IE6, IE7, IE8, IE9, IE10, IE11].**
+*   This is a web front end developing tool, it helps us develop the web page exactly same with design.              
+*   This tool is developed based on jquery. and also include jquery mousewheel plugin and jquery cookie plugin inside. 
+*   The principle of this tool is to put the design image on the top of our page, help us develop page as same as design with short time.
+*   **It is supported in all browsers[Firefox, Chrome, Safari, Opera, IE6, IE7, IE8, IE9, IE10, IE11].**
 
 ### Demo Screenshot:
 ![webmirror screenshot][1]
 #### How To Deploy It Into Your Page?
-Just include the webmirror.js at the bottom of your page, and then save and refresh page.           
-![webmirror screenshot][3]             
+1. *Just include the webmirror.js at the bottom of your page, and then save and refresh page.**            
+![webmirror screenshot][2]             
 if your page didn't include jquery, please also include jquery in front of webmirror.js.
 ```
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js" ></script>
 <script type="text/javascript" src="../webmirror.js" ></script>
 ```
+2. *Name your design image as "design.jpg" and put it in the same directory of your page.*       
+
 #### How To Use It?
 1. **"Alt" key + mousewheel scrolldown:** increase the design layer opacity        
 2. **"Alt" key + mousewheel scrollup:** decrease the design layer opacity       
@@ -45,7 +48,7 @@ var webmirror_defaults =
 $.webmirror_options = {};
 ```
 #### Override Default Parameters:
-![webmirror screenshot][4] 
+![webmirror screenshot][3] 
 
 
 
@@ -73,7 +76,6 @@ $.webmirror_options = {};
 
 
 
-[1]:
-[2]:
-[3]:https://github.com/tracylv/webmirror/blob/master/demo/demo_screenshot/defaultparameters.jpg
-[4]:https://github.com/tracylv/webmirror/blob/master/demo/demo_screenshot/overrideparameters.jpg
+[1]:https://github.com/tracylv/webmirror/blob/master/demo/demo_screenshot/demo2screenshot.jpg
+[2]:https://github.com/tracylv/webmirror/blob/master/demo/demo_screenshot/defaultparameters.jpg
+[3]:https://github.com/tracylv/webmirror/blob/master/demo/demo_screenshot/overrideparameters.jpg
