@@ -54,7 +54,7 @@ $(function(){
 	var $dom = $(dom);
 	var offset = getOffset();
 	var opacity = getOpacity();
-	settings.height <= 0 ? $dom.height($("body").height()) : $dom.height(settings.height);	
+	settings.height <= 0 ? $dom.height($(document).height()) : $dom.height(settings.height);	
 	$dom.width(settings.width);	
 	$dom.css("opacity", opacity);
 	$dom.css("filter","alpha(opacity=" + opacity*100 +")").css("-ms-filter","progid:DXImageTransform.Microsoft.Alpha(Opacity="+ opacity*100 + ")");
@@ -64,7 +64,7 @@ $(function(){
 	$dom.dblclick(function(e){ $(this).hide(); e.stopPropagation();});
 	
 	// double click in the page open the design layer
-	$("body").dblclick(function(){ 
+	$(document).dblclick(function(){ 
 	    var currentOpa = getOpacity();
 		if(currentOpa == 0)
 		{
