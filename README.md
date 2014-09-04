@@ -68,7 +68,7 @@ Note: for imgpath, please use relative path or absolute path start with "http://
 #### Known Issues:
 1. in IE browsers, sometimes mousewheel scroll Up/Down couldn't scroll the page, only update the design layer opacity instead.     
 *Solution: Press "Alt" Key again.*
-2. when using it in Chrome browser with file path system, like "file:///C:/Users/tracy.lv/Desktop/demo1.htm", it can't remember the cookies(the current settings for webmirror).
+2. when using it in Chrome browser with file path system, like "file:///C:/Users/tracy.lv/Desktop/demo1.htm", it can't remember the cookies(the current settings for webmirror).         
 *Solution: if use it in Chrome, please use local IIS to develop, like "http://localhost/demo1.htm".*
 
 
