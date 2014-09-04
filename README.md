@@ -58,7 +58,7 @@ $.webmirror_options = {};
 1. remove the webmirror.js from your page after you finished web frontend developing work.
 
 #### Known Issues:
-1. in IE browsers, sometimes mousewheel scroll Up/Down couldn't scroll the page, only update the design layer opacity.  
+1. in IE browsers, sometimes mousewheel scroll Up/Down couldn't scroll the page, only update the design layer opacity instead.     
 *Solution: Press "Alt" Key again.*
 
 
