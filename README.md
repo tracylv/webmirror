@@ -7,8 +7,8 @@ Webmirror
 *   **It is supported in all browsers[Firefox, Chrome, Safari, Opera, IE6, IE7, IE8, IE9, IE10, IE11].**
 
 ### Demos:
-1. http://gh.tracylv.com/webmirror/demo/demo1.htm             
-2. http://gh.tracylv.com/webmirror/demo/demo2.htm          
+1. http://webmirror.tracylv.com/demo/demo1.htm             
+2. http://webmirror.tracylv.com/demo/demo2.htm          
 screenshot:              
 ![webmirror screenshot][1]           
 
