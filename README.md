@@ -6,8 +6,12 @@ Webmirror
 *   The principle of this tool is to put the design image on the top of our page, help us develop page as same as design with short time.
 *   **It is supported in all browsers[Firefox, Chrome, Safari, Opera, IE6, IE7, IE8, IE9, IE10, IE11].**
 
-### Demo Screenshot:
-![webmirror screenshot][1]
+### Demos:
+1. http://gh.tracylv.com/webmirror/demo/demo1.htm             
+2. http://gh.tracylv.com/webmirror/demo/demo2.htm          
+screenshot:              
+![webmirror screenshot][1]           
+
 #### How To Deply It Into Your Page?
 * *Firstly, include the webmirror.js at the bottom of your page.* 
 ![webmirror screenshot][2]   
