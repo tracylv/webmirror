@@ -25,7 +25,7 @@ return cookieValue;}};
 var webmirror_defaults = 
 {
 	// design default layer opacity
-	opacity: 0.5,
+	opacity: 0.1,
 	
 	// design layer width
 	width: "100%",
