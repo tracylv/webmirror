@@ -13,12 +13,16 @@ screenshot:
 ![webmirror screenshot][1]           
 
 #### How To Deply It Into Your Page?
-* *Firstly, include the webmirror.js at the bottom of your page.* 
-![webmirror screenshot][2]   
+* *Firstly, include the webmirror.js at the bottom of your page.(no need download to local)*        
+```
+	<script type="text/javascript" src="http://webmirror.tracylv.com/webmirror.js" ></scirpt>
+    </body>
+</html>
+```
 if your page didn't include jquery, you also need include jquery in front of webmirror.js, see below:
 ```
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js" ></script>
-<script type="text/javascript" src="../webmirror.js" ></script>
+<script type="text/javascript" src="http://webmirror.tracylv.com/webmirror.js" ></script>
 ```      
 
 * *Secondly, name your design image as "design.jpg" and put it in the same directory of your page.*     
@@ -63,7 +67,13 @@ $.webmirror_options = {opacity: 0.3, width: 400, height: 400};
 $.webmirror_options = {offset: {top: 100, left: 100}, imgpath: "designpath/xx/xxx.jpg"};
 Note: for imgpath, please use relative path or absolute path start with "http://", don't use some like: "D://xx/x.jpg", "file:///xx/x.jpg"
 ```
-![webmirror screenshot][3] 
+For example:       
+```
+<script type="text/javascript" src="http://webmirror.tracylv.com/webmirror.js" ></scirpt>
+<script type="text/javascript">
+	$.webmirror_options = {"imgpath" : "design/module_design.jpg", width: 374, height: 401};
+</script>
+```
 
 #### Suggestions:
 1. don't the disable the cookie. because we use cookie to remember the current setting for webmirror.
