@@ -60,6 +60,12 @@ $(function(){
 	$dom.css("filter","alpha(opacity=" + opacity*100 +")").css("-ms-filter","progid:DXImageTransform.Microsoft.Alpha(Opacity="+ opacity*100 + ")");
 	$dom.css({"position": "absolute", "top": offset.top + "px", "left": offset.left + "px", "background-image" : "url(" + settings.imgpath + ")"});
 	
+	// if the opacity is 0, hide the design layer
+	if(opacity == 0)
+	{
+		$dom.hide();
+	}
+	
 	// double click close the design layer
 	$dom.dblclick(function(e){ $(this).hide(); e.stopPropagation();});
 	
@@ -92,7 +98,7 @@ $(function(){
 		if(pressAlt)
 		{
 		    var left = parseInt($dom.css("left"));
-			var top = parseInt($dom.css("top"))
+			var top = parseInt($dom.css("top"));
 			
 			// "Left" key
 			if(e.keyCode == 37){ left--; }
@@ -145,6 +151,58 @@ $(function(){
 			event.preventDefault();
 		}
 	});  
+	
+	// enable drag functionality
+	var isMouseDown = false;
+	var isMouseMove = false;
+	var originX = 0;
+	var originY = 0;
+	var originLeft = 0;
+	var originTop = 0;
+	
+	// keep the origin value before drag
+	$dom.mousedown(function(e){
+		isMouseDown = true;
+		originX = parseInt(e.pageX);
+		originY = parseInt(e.pageY);
+		originLeft = parseInt($dom.css("left"));
+		originTop = parseInt($dom.css("top"));
+	});
+	
+	$(document).mousemove(function(e){
+	    
+		// drag design layer
+		if(isMouseDown)
+		{
+			isMouseMove = true;
+			
+			var currentX = parseInt(e.pageX);
+			var currentY = parseInt(e.pageY);
+			
+			var left = parseInt(originLeft + currentX - originX);
+			var top = parseInt(originTop + currentY - originY);
+			
+			$dom.css({"top": top + "px", "left": left + "px"});
+			$dom.css("cursor", "move");
+		}
+	});
+	
+	// update position cookie if the position changed.
+	$dom.mouseup(function(){
+		isMouseDown = false;
+		if(isMouseMove)
+		{
+			isMouseMove = false;
+			
+			var left = parseInt($dom.css("left"));
+			var top = parseInt($dom.css("top"));
+		
+			$dom.css({"top": top + "px", "left": left + "px"});
+			$dom.css("cursor", "default");
+			$.cookie("tl_ofstop", top,  {expires: 7, path: '/'});
+			$.cookie("tl_ofsleft", left,  {expires: 7, path: '/'});	
+		}
+	});
 	
 	// add design layer into the page
 	$("body").append($dom);
