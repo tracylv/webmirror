@@ -31,9 +31,9 @@ if your page didn't include jquery, you also need include jquery in front of web
 #### How To Use It?
 1. **"Alt" key + mousewheel scrolldown:** increase the design layer opacity        
 2. **"Alt" key + mousewheel scrollup:** decrease the design layer opacity       
-3. **"Alt" key + Up/Right/Down/Left key:** move the design layer position       
-4. **double click the design layer:** close the design layer            
-5. **double click in your page:** open the design layer      
+3. **Drag design image or "Alt" key + Up/Right/Down/Left key:** move the design layer position       
+4. **Double click the design layer:** close the design layer            
+5. **Double click in your page:** open the design layer      
 
 #### Default Parameters:
 ```
