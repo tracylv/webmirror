@@ -69,7 +69,7 @@ Note: for imgpath, please use relative path or absolute path start with "http://
 ```
 For example:       
 ```
-<script type="text/javascript" src="http://webmirror.tracylv.com/webmirror.js" ></scirpt>
+<script type="text/javascript" src="http://webmirror.tracylv.com/webmirror.js" ></script>
 <script type="text/javascript">
 	$.webmirror_options = {"imgpath" : "design/module_design.jpg", width: 374, height: 401};
 </script>
