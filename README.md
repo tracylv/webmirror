@@ -78,6 +78,7 @@ For example:
 #### Suggestions:
 1. don't the disable the cookie. because we use cookie to remember the current setting for webmirror.
 2. remove the webmirror.js from your page after you finished web frontend developing work. 
+3. host the webmirror.js in your local environment.           
 
 #### Known Issues:
 1. in IE browsers, sometimes mousewheel scroll Up/Down couldn't scroll the page, only update the design layer opacity instead.     
